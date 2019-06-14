@@ -263,7 +263,7 @@ equipments = {
 			
 			front_1_custom_slot = inherit
 			front_2_custom_slot = inherit
-			mid_1_custom_slot = inerhit
+			mid_1_custom_slot = inherit
 			mid_3_custom_slot = inherit
 			mid_4_custom_slot = {
 				required = yes
