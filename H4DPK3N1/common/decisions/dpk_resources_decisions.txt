@@ -1,0 +1,1273 @@
+prospect_for_resources = {
+	exchinsteel1 = { 
+		
+		icon = steel
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 615
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 615
+			controls_state = 615
+		}
+
+		visible = {
+			owns_state = 615
+			controls_state = 615
+			615 = {
+				NOT = {
+					has_state_flag = exchinsteel1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			615 = { set_state_flag = exchinsteel1flg } 
+			615 = {
+				add_resource = {
+					type = steel
+					amount = 52
+				}
+			}
+		}
+	}
+	exchinsteel2 = { 
+		
+		icon = steel
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 592
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 592
+			controls_state = 592
+		}
+
+		visible = {
+			owns_state = 592
+			controls_state = 592
+			592 = {
+				NOT = {
+					has_state_flag = exchinsteel2flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			592 = { set_state_flag = exchinsteel2flg } 
+			592 = {
+				add_resource = {
+					type = steel
+					amount = 42
+				}
+			}
+		}
+	}
+	exchinalu1 = { 
+		
+		icon = aluminium
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 599
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 3
+			owns_state = 599
+			controls_state = 599
+		}
+
+		visible = {
+			owns_state = 599
+			controls_state = 599
+			599 = {
+				NOT = {
+					has_state_flag = exchinalu1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			599 = { set_state_flag = exchinalu1flg } 
+			599 = {
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+			}
+		}
+	}
+	exchinoil1 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 591
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 12
+			owns_state = 591
+			controls_state = 591
+		}
+
+		visible = {
+			owns_state = 591
+			controls_state = 591
+			591 = {
+				NOT = {
+					has_state_flag = exchinoil1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			591 = { set_state_flag = exchinoil1flg } 
+			591 = {
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+	}
+	exchinoil2 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 601
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 3
+			owns_state = 601
+			controls_state = 601
+		}
+
+		visible = {
+			owns_state = 601
+			controls_state = 601
+			601 = {
+				NOT = {
+					has_state_flag = exchinoil2flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			601 = { set_state_flag = exchinoil2flg } 
+			601 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+	}
+	exchinrub1 = { 
+		
+		icon = rubber
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 591
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 8
+			owns_state = 591
+			controls_state = 591
+		}
+
+		visible = {
+			owns_state = 591
+			controls_state = 591
+			591 = {
+				NOT = {
+					has_state_flag = exchinrub1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 8
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			591 = { set_state_flag = exchinrub1flg } 
+			591 = {
+				add_resource = {
+					type = rubber
+					amount = 22
+				}
+			}
+		}
+	}
+	
+	exnipsteel1 = { 
+		
+		icon = steel
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 534
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 534
+			controls_state = 534
+		}
+
+		visible = {
+			owns_state = 534
+			controls_state = 534
+			534 = {
+				NOT = {
+					has_state_flag = exjapsteel1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			534 = { set_state_flag = exjapsteel1flg } 
+			534 = {
+				add_resource = {
+					type = steel
+					amount = 34
+				}
+			}
+		}
+	}
+	exnipalu1 = { 
+		
+		icon = aluminium
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 533
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 533
+			owns_state = 534
+			owns_state = 536
+			controls_state = 533
+			controls_state = 534
+			controls_state = 536
+		}
+
+		visible = {
+			owns_state = 533
+			owns_state = 534
+			controls_state = 533
+			controls_state = 534
+			533 = {
+				NOT = {
+					has_state_flag = exjapalu1flg
+				}
+			}
+			534 = {
+				NOT = {
+					has_state_flag = exjapalu1flg
+				}
+			}
+			536 = {
+				NOT = {
+					has_state_flag = exjapalu1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			533 = {
+				set_state_flag = exjapalu1flg
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+			534 = {
+				set_state_flag = exjapalu1flg
+				add_resource = {
+					type = aluminium
+					amount = 14
+				}
+			}
+			536 = {
+				set_state_flag = exjapalu1flg
+				add_resource = {
+					type = aluminium
+					amount = 16
+				}
+			}
+		}
+	}
+	
+	#MiddleEast
+	
+	exmeoil1 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 291
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 291
+			controls_state = 291
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 291
+			controls_state = 291
+			has_manpower > 30000
+			291 = {
+				NOT = {
+					has_state_flag = exmeoil1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			291 = { set_state_flag = exmeoil1flg } 
+			291 = {
+				add_resource = {
+					type = oil
+					amount = 128
+				}
+			}
+		}
+	}
+	exmeoil2 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 292
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 291
+			controls_state = 291
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 292
+			controls_state = 292
+			has_manpower > 30000
+			291 = {
+				NOT = {
+					has_state_flag = exmeoil2flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			292 = { set_state_flag = exmeoil2flg } 
+			292 = {
+				add_resource = {
+					type = oil
+					amount = 96
+				}
+			}
+		}
+	}
+	exmeoil3 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 680
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 680
+			controls_state = 680
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 680
+			controls_state = 680
+			has_manpower > 30000
+			680 = {
+				NOT = {
+					has_state_flag = exmeoil3flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			680 = { set_state_flag = exmeoil3flg } 
+			680 = {
+				add_resource = {
+					type = oil
+					amount = 48
+				}
+			}
+		}
+	}
+	exmeoil4 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 413
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 413
+			controls_state = 413
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 413
+			controls_state = 413
+			has_manpower > 30000
+			413 = {
+				NOT = {
+					has_state_flag = exmeoil4flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			413 = { set_state_flag = exmeoil4flg } 
+			413 = {
+				add_resource = {
+					type = oil
+					amount = 36
+				}
+			}
+		}
+	}
+	exsovoil1 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 237
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 237
+			owns_state = 236
+			controls_state = 236
+			controls_state = 236
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 237
+			owns_state = 236
+			controls_state = 237
+			controls_state = 236
+			has_manpower > 30000
+			237 = {
+				NOT = {
+					has_state_flag = exsovoil1flg
+				}
+			}
+			236 = {
+				NOT = {
+					has_state_flag = exsovoil1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 11
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			237 = { set_state_flag = exsovoil1flg } 
+			236 = { set_state_flag = exsovoil1flg }
+			237 = {
+				add_resource = {
+					type = oil
+					amount = 21
+				}
+			}
+			236 = {
+				add_resource = {
+					type = oil
+					amount = 26
+				}
+			}
+		}
+	}
+	exsovoil2 = { 
+		
+		icon = oil
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 406
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 8
+			owns_state = 406
+			owns_state = 587
+			controls_state = 406
+			controls_state = 587
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 406
+			owns_state = 587
+			controls_state = 406
+			controls_state = 587
+			has_manpower > 30000
+			406 = {
+				NOT = {
+					has_state_flag = exsovoil2flg
+				}
+			}
+			587 = {
+				NOT = {
+					has_state_flag = exsovoil2flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 8
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			406 = { set_state_flag = exsovoil2flg } 
+			587 = { set_state_flag = exsovoil2flg }
+			406 = {
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+			587 = {
+				add_resource = {
+					type = oil
+					amount = 28
+				}
+			}
+		}
+	}
+	exsovmin1 = { 
+		
+		icon = steel
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 573
+			state = 581
+			state = 582
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 9
+			owns_state = 582
+			owns_state = 573
+			owns_state = 581
+			controls_state = 582
+			controls_state = 573
+			controls_state = 581
+			has_manpower > 30000
+		}
+
+		visible = {
+			owns_state = 582
+			owns_state = 573
+			owns_state = 581
+			controls_state = 582
+			controls_state = 573
+			controls_state = 581
+			has_manpower > 30000
+			582 = {
+				NOT = {
+					has_state_flag = exsovmin1flg
+				}
+			}
+			573 = {
+				NOT = {
+					has_state_flag = exsovmin1flg
+				}
+			}
+			581 = {
+				NOT = {
+					has_state_flag = exsovmin1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 9
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			573 = {
+				set_state_flag = exsovmin1flg
+				add_resource = {
+					type = steel
+					amount = 24
+				}
+				add_resource = {
+					type = tungsten
+					amount = 12
+				}
+				add_resource = {
+					type = aluminium
+					amount = 14
+				}
+				add_resource = {
+					type = chromium
+					amount = 14
+				}
+			}
+			581 = {
+				set_state_flag = exsovmin1flg
+				add_resource = {
+					type = steel
+					amount = 25
+				}
+				add_resource = {
+					type = tungsten
+					amount = 9
+				}
+				add_resource = {
+					type = aluminium
+					amount = 15
+				}
+				add_resource = {
+					type = chromium
+					amount = 27
+				}
+			}
+			582 = {
+				set_state_flag = exsovmin1flg
+				add_resource = {
+					type = steel
+					amount = 28
+				}
+				add_resource = {
+					type = tungsten
+					amount = 12
+				}
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+				add_resource = {
+					type = chromium
+					amount = 12
+				}
+			}
+		}
+	}
+	exindrub1 = { 
+		
+		icon = rubber
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 288
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 288
+			controls_state = 288
+			has_manpower > 35000
+		}
+
+		visible = {
+			owns_state = 288
+			controls_state = 288
+			has_manpower > 35000
+			288 = {
+				NOT = {
+					has_state_flag = exindrub1flg
+				}
+			}
+
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 65
+
+		modifier = {
+			civilian_factory_use = 4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			288 = { set_state_flag = exindrub1flg } 
+			288 = {
+				add_resource = {
+					type = rubber
+					amount = 42
+				}
+			}
+		}
+	}
+	exbrarub1 = { 
+		
+		icon = rubber
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 495
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 9
+			owns_state = 495
+			owns_state = 280
+			controls_state = 495
+			controls_state = 280
+			has_manpower > 55000
+		}
+
+		visible = {
+			owns_state = 495
+			owns_state = 280
+			controls_state = 495
+			controls_state = 280
+			has_manpower > 55000
+			495 = {
+				NOT = {
+					has_state_flag = exbrarub1flg
+				}
+			}
+			280 = {
+				NOT = {
+					has_state_flag = exbrarub1flg
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 65
+
+		modifier = {
+			civilian_factory_use = 9
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			495 = { set_state_flag = exbrarub1flg } 
+			495 = {
+				add_resource = {
+					type = rubber
+					amount = 66
+				}
+			}
+			280 = { set_state_flag = exbrarub1flg } 
+			280 = {
+				add_resource = {
+					type = rubber
+					amount = 42
+				}
+			}
+		}
+	}
+	exbraalu1 = { 
+		
+		icon = aluminium
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 502
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 502
+			controls_state = 502
+			has_manpower > 55000
+		}
+
+		visible = {
+			owns_state = 502
+			controls_state = 502
+			has_manpower > 55000
+			502 = {
+				NOT = {
+					has_state_flag = exbraalu1flg
+				}
+			}
+
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 65
+
+		modifier = {
+			civilian_factory_use = 4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_manpower = -55000
+		}
+		remove_effect = { 
+			502 = { set_state_flag = exbraalu1flg } 
+			502 = {
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+			add_manpower = 50000
+		}
+	}
+	exeusteel1 = { 
+		
+		icon = steel
+
+		allowed = {
+			
+		}
+
+		highlight_states = {
+			state = 28
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 3
+			owns_state = 28
+			controls_state = 28
+			has_manpower > 5500
+		}
+
+		visible = {
+			owns_state = 28
+			controls_state = 28
+			has_manpower > 5500
+			28 = {
+				NOT = {
+					has_state_flag = exeusteel1flg
+				}
+			}
+
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 65
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_manpower = -5500
+		}
+		remove_effect = { 
+			28 = { set_state_flag = exeusteel1flg } 
+			28 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+			add_manpower = 5000
+		}
+	}
+	exeusteel2 = { 
+		
+		icon = steel
+
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 38
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 3
+			owns_state = 38
+			controls_state = 38
+			has_manpower > 5500
+		}
+
+		visible = {
+			owns_state = 38
+			controls_state = 38
+			has_manpower > 5500
+			38 = {
+				NOT = {
+					has_state_flag = exeusteel1flg
+				}
+			}
+
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 65
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_manpower = -5500
+		}
+		remove_effect = { 
+			38 = { set_state_flag = exeusteel1flg } 
+			38 = {
+				add_resource = {
+					type = steel
+					amount = 52
+				}
+			}
+			add_manpower = 5000
+		}
+	}
+	
+	exeusteel3 = { 
+		
+		icon = steel
+
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 666
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 3
+			owns_state = 666
+			controls_state = 666
+			has_manpower > 5500
+		}
+
+		visible = {
+			owns_state = 666
+			controls_state = 666
+			has_manpower > 5500
+			666 = {
+				NOT = {
+					has_state_flag = exeusteel1flg
+				}
+			}
+
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 65
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_manpower = -5500
+		}
+		remove_effect = { 
+			666 = { set_state_flag = exeusteel1flg } 
+			666 = {
+				add_resource = {
+					type = steel
+					amount = 64
+				}
+			}
+			add_manpower = 5000
+		}
+	}
+}

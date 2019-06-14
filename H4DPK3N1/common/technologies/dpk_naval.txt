@@ -1,0 +1,148 @@
+technologies = {
+	improved_sonar = {
+		enable_equipment_modules = { 
+			ship_sonar_2
+		}
+		on_research_complete = {
+			custom_effect_tooltip = sonar_advice_tt
+		}
+		path = {
+			leads_to_tech = frigate_tech
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+
+		start_year = 1936
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				has_war_with = GER
+			}
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+		}
+	}
+	frigate_tech = {
+
+		enable_equipments = { 
+			ship_hull_escort
+		}
+	
+		research_cost = 2
+		
+		start_year = 1942
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 4
+				has_war_with = GER
+			}
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+		}
+	}
+	###Special snowflake hulls for special snowflake nations
+	panzerschiffe = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_panzerschiff
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	torpedo_cruiser_mtg = {
+
+		enable_equipments = { 
+			ship_hull_torpedo_cruiser
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	pre_dreadnoughts = {
+
+		enable_equipments = { 
+			ship_hull_pre_dreadnought
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	coastal_defense_ships = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_coastal_defense_ship
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	cruiser_submarines = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_submarine
+		}
+		enable_equipment_modules = { 
+			ship_extra_fuel_tank
+		}
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+}
