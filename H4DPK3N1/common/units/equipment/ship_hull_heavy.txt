@@ -197,7 +197,7 @@ equipments = {
 					ship_airplane_launcher
 				}
 			}
-			rear_2_custom_slot =  = {
+			rear_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_heavy_battery

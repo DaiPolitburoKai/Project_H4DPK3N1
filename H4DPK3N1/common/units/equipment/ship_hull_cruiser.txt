@@ -599,6 +599,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_torpedo
 					ship_medium_battery
+					ship_heavy_battery
 				}
 			}
 		}
