@@ -659,17 +659,18 @@ equipment_modules = {
 		
 		add_stats = {
 			anti_air_attack = 1.5
-			build_cost_ic = 30
+			build_cost_ic = 90
 		}
 		
 		multiply_stats = {
 			build_cost_ic = 0.025
 			anti_air_attack = 0.1
+			naval_speed = -0.01
 		}
 
 		can_convert_from = {
 			module_category = ship_anti_air
-			convert_cost_ic = 10
+			convert_cost_ic = 60
 		}
 	}
 
@@ -681,22 +682,23 @@ equipment_modules = {
 		
 		add_stats = {
 			anti_air_attack = 2
-			build_cost_ic = 45
+			build_cost_ic = 120
 		}
 		
 		multiply_stats = {
+			naval_speed = -0.01
 			build_cost_ic = 0.025
 			anti_air_attack = 0.1
 		}
 
 		can_convert_from = {
 			module_category = ship_anti_air
-			convert_cost_ic = 10
+			convert_cost_ic = 90
 		}
 
 		can_convert_from = {
 			module = ship_anti_air_1
-			convert_cost_ic = 15
+			convert_cost_ic = 60
 		}
 	}
 	ship_anti_air_3 = {
@@ -706,22 +708,23 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			anti_air_attack = 3
-			build_cost_ic = 60
+			build_cost_ic = 150
 		}
 		
 		multiply_stats = {
+			naval_speed = -0.01
 			build_cost_ic = 0.025
 			anti_air_attack = 0.125
 		}
 
 		can_convert_from = {
 			module_category = ship_anti_air
-			convert_cost_ic = 10
+			convert_cost_ic = 90
 		}
 
 		can_convert_from = {
 			module = ship_anti_air_2
-			convert_cost_ic = 15
+			convert_cost_ic = 60
 		}
 	}
 	ship_anti_air_4 = {
@@ -732,22 +735,23 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			anti_air_attack = 4
-			build_cost_ic = 75
+			build_cost_ic = 190
 		}
 		
 		multiply_stats = {
+			naval_speed = -0.01
 			build_cost_ic = 0.025
 			anti_air_attack = 0.15
 		}
 
 		can_convert_from = {
 			module_category = ship_anti_air
-			convert_cost_ic = 10
+			convert_cost_ic = 120
 		}
 
 		can_convert_from = {
 			module = ship_anti_air_3
-			convert_cost_ic = 30
+			convert_cost_ic = 50
 		}
 	}
 
@@ -942,7 +946,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 5.5
+			naval_speed = 5
 			fuel_consumption = 7
 			build_cost_ic = 90
 		}
@@ -966,7 +970,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 5.5
+			naval_speed = 5
 			fuel_consumption = 8
 			build_cost_ic = 120
 		}
@@ -994,7 +998,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 5.5
+			naval_speed = 5
 			fuel_consumption = 10
 			build_cost_ic = 150
 		}
@@ -1021,7 +1025,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 5.5
+			naval_speed = 5
 			fuel_consumption = 10
 			build_cost_ic = 170
 		}
@@ -1156,7 +1160,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 5.5
+			naval_speed = 5
 			fuel_consumption = 12
 			build_cost_ic = 400
 		}
@@ -1179,7 +1183,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 6.5
+			naval_speed = 6
 			fuel_consumption = 16
 			build_cost_ic = 480
 		}
@@ -1207,7 +1211,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 8
+			naval_speed = 7
 			fuel_consumption = 20
 			build_cost_ic = 550
 		}
@@ -1234,7 +1238,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 9
+			naval_speed = 7
 			fuel_consumption = 24
 			build_cost_ic = 670
 		}
@@ -1260,7 +1264,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 7.5
+			naval_speed = 7
 			fuel_consumption = 20
 			build_cost_ic = 1800
 		}
@@ -1283,7 +1287,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 12
+			naval_speed = 10
 			fuel_consumption = 25
 			build_cost_ic = 2200
 		}
@@ -1311,7 +1315,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 15
+			naval_speed = 11
 			fuel_consumption = 30
 			build_cost_ic = 2600
 		}
@@ -1339,7 +1343,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 18
+			naval_speed = 12
 			fuel_consumption = 35
 			build_cost_ic = 3000
 		}
@@ -1366,7 +1370,7 @@ equipment_modules = {
 		
 		
 		add_stats = {
-			naval_speed = 7
+			naval_speed = 5
 			fuel_consumption = 12
 			build_cost_ic = 400
 		}
@@ -1389,7 +1393,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 9
+			naval_speed = 5
 			fuel_consumption = 16
 			build_cost_ic = 480
 		}
@@ -1417,7 +1421,7 @@ equipment_modules = {
 		
 		
 		add_stats = {
-			naval_speed = 12
+			naval_speed = 5
 			fuel_consumption = 20
 			build_cost_ic = 550
 		}
@@ -1444,7 +1448,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 14
+			naval_speed = 5
 			fuel_consumption = 24
 			build_cost_ic = 670
 		}
@@ -1713,12 +1717,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 8
-			build_cost_ic = 40
+			build_cost_ic = 90
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 30
+			convert_cost_ic = 60
 		}
 
 		multiply_stats = {
@@ -1733,12 +1737,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 12
-			build_cost_ic = 60
+			build_cost_ic = 120
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 40
+			convert_cost_ic = 90
 		}
 
 		multiply_stats = {
@@ -1753,12 +1757,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 16
-			build_cost_ic = 80
+			build_cost_ic = 150
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 50
+			convert_cost_ic = 120
 		}
 
 		multiply_stats = {
@@ -1773,12 +1777,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 20
-			build_cost_ic = 100
+			build_cost_ic = 180
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 60
+			convert_cost_ic = 150
 		}
 
 		multiply_stats = {
@@ -1839,6 +1843,9 @@ equipment_modules = {
 			sub_detection = 2.5
 			build_cost_ic = 150
 		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
 	}
 	ship_airplane_launcher_2 = {
 		category = ship_airplane_launcher
@@ -1853,6 +1860,9 @@ equipment_modules = {
 			module_category = ship_airplane_launcher
 			convert_cost_ic = 80
 		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
 	}
 
 ###  ###  ##  # #      ## ###   ##   ##  ### 
@@ -1866,10 +1876,10 @@ equipment_modules = {
 
 		add_equipment_type = capital_ship
 		add_stats = {
-			carrier_size = 15
-			build_cost_ic = 1500
+			carrier_size = 20
+			build_cost_ic = 2000
 		}
-		manpower = 100 #outside the add_stats section for code reasons
+		manpower = 500 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.05
 		}

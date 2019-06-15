@@ -50,36 +50,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
 					ship_deck_space
 					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_deck_space
-					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_5_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
 					ship_secondaries
 				}
 			}
@@ -93,20 +65,11 @@ equipments = {
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
 			fixed_ship_deck_slot_2 = empty
-			fixed_ship_deck_slot_3 = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
-			mid_4_custom_slot = empty
-			mid_5_custom_slot = empty
-			mid_6_custom_slot = empty
-			mid_7_custom_slot = empty
-			mid_8_custom_slot = empty
 		}
 		
 		lg_armor_piercing = 0
@@ -124,7 +87,7 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 1
+		sub_detection = 5
 		surface_visibility = 30
 		naval_speed = 26
 		reliability = 0.70
@@ -139,13 +102,13 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 2000
+		build_cost_ic = 2450
 		resources = {
 			steel = 3
 			chromium = 1
 		}
 		
-		manpower = 4000
+		manpower = 4500
 	}
 
 	ship_hull_carrier_1 = {
@@ -155,7 +118,7 @@ equipments = {
 		archetype = ship_hull_carrier
 		priority = 1000
 		
-		module_slots = inherit	
+		module_slots = inherit
 	}
 
 	ship_hull_carrier_2 = {
@@ -177,73 +140,21 @@ equipments = {
 					ship_anti_air
 					ship_deck_space
 					ship_carrier_armor
-					ship_secondaries
 				}
 			}
 			mid_1_custom_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
+					ship_secondaries
 					ship_deck_space
 					ship_carrier_armor
-				}
-			}
-			mid_2_custom_slot = {
-				required = yes
-				allowed_module_categories = {
-					ship_anti_air
-					ship_deck_space
-					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_3_custom_slot = mid_2_custom_slot
-			mid_4_custom_slot = mid_2_custom_slot
-			mid_5_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_6_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_7_custom_slot = {
-				required = yes
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_8_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
 				}
 			}
 		}
 
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
-			mid_4_custom_slot = ship_deck_space
-			mid_5_custom_slot = ship_deck_space
-			mid_6_custom_slot = empty
-			mid_7_custom_slot = empty
-			mid_8_custom_slot = empty
-			mid_9_custom_slot = empty
-			mid_10_custom_slot = empty
-			mid_11_custom_slot = empty
+			mid_1_custom_slot = empty
 		}
 		naval_range = 4000
 		reliability = 0.75
@@ -251,12 +162,12 @@ equipments = {
 		
 
 
-		build_cost_ic = 2200
+		build_cost_ic = 2600
 		resources = {
 			steel = 4
 			chromium = 1
 		}
-		manpower = 4500
+		manpower = 5000
 	}
 
 	ship_hull_carrier_3 = {
@@ -268,11 +179,6 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_deck_slot_3 = {
-				required = yes
-				allowed_module_categories = { ship_carrier_armor }
-				gfx = ship_deck_space_slot
-			}
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -283,85 +189,29 @@ equipments = {
 					ship_anti_air
 					ship_deck_space
 					ship_carrier_armor
-					ship_secondaries
 				}
 			}
 			mid_1_custom_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
+					ship_secondaries
 					ship_deck_space
 					ship_carrier_armor
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = {
-				required = yes
+			mid_2_custom_slot = {
+				required = no
 				allowed_module_categories = {
-					ship_anti_air
+					ship_secondaries
 					ship_deck_space
 					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_4_custom_slot = mid_3_custom_slot
-			mid_5_custom_slot = mid_3_custom_slot
-			mid_6_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_deck_space
-					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_7_custom_slot = mid_6_custom_slot
-			mid_8_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_9_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_10_custom_slot = {
-				required = yes
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
-					ship_secondaries
-				}
-			}
-			mid_9_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_extra_fuel_tank
 				}
 			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
-			mid_4_custom_slot = ship_deck_space
-			mid_5_custom_slot = ship_deck_space
-			mid_6_custom_slot = ship_deck_space
-			mid_7_custom_slot = ship_deck_space
-			mid_8_custom_slot = empty
-			mid_9_custom_slot = empty
-			mid_10_custom_slot = empty
-			mid_11_custom_slot = empty
-			mid_12_custom_slot = empty
-			mid_13_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
 		}
 		
 		naval_range = 5000
@@ -370,12 +220,12 @@ equipments = {
 		
 
 
-		build_cost_ic = 2800
+		build_cost_ic = 3250
 		resources = {
 			steel = 4
 			chromium = 2
 		}
-		manpower = 5000
+		manpower = 5500
 	}
 
 	ship_hull_carrier_conversion_bb = {
@@ -397,28 +247,9 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
+					ship_secondaries
 					ship_deck_space
 					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_6_custom_slot = {
-				required = yes
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-					ship_secondaries
 				}
 			}
 		}
@@ -457,16 +288,6 @@ equipments = {
 				allowed_module_categories = { cruiser_ship_engine carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = inherit
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_deck_space
-					ship_carrier_armor
-					ship_secondaries
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
 		}
 
 		default_modules = {

@@ -110,12 +110,6 @@ equipments = {
 					ship_radar
 				}
 			}
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo_sub
-				}
-			}
 		}
 
 		default_modules = {
@@ -150,12 +144,17 @@ equipments = {
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
-			front_1_custom_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_radar
-					ship_sonar
 					ship_sub_snorkel
 				}
 			}
@@ -195,13 +194,17 @@ equipments = {
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
-			front_1_custom_slot = inherit
-			mid_1_custom_slot = inherit
-			mid_2_custom_slot = {
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_radar
-					ship_sonar
 					ship_sub_snorkel
 				}
 			}
@@ -246,6 +249,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo_sub
+					ship_airplane_launcher
 					ship_mine_layer_sub
 					ship_extra_fuel_tank
 				}
@@ -255,34 +259,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_radar
 					ship_sub_snorkel
-					ship_extra_fuel_tank
-				}
-			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-				}
-			}
-			mid_3_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_airplane_launcher
-					ship_extra_fuel_tank
-				}
-			}
-			mid_4_custom_slot = {
-				required = yes
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-				}
-			}
-			mid_5_custom_slot = {
-				required = yes
-				allowed_module_categories = {
-					ship_secondaries
 				}
 			}
 			rear_1_custom_slot = {
@@ -319,5 +295,186 @@ equipments = {
 		type = { 
 			submarine
 		}	
+	}
+	submarine_1 = {
+		year = 1922
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+
+		lg_armor_piercing = 0
+		lg_attack = 0 # Their main weapon is torpedo_attack.
+		torpedo_attack = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 30
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 30
+		naval_speed = 9
+		reliability = 0.60
+		
+		naval_range = 2500
+		
+		max_strength = 10
+		
+
+		fuel_consumption = 1
+		
+		build_cost_ic = 250
+		resources = {
+			#oil = 1
+			steel = 1
+		}
+		
+		manpower = 200
+	}
+	
+	submarine_2 = {
+		year = 1936
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_1
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 40
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 25
+		naval_speed = 14
+		reliability = 0.70
+
+		naval_range = 4000
+		
+		max_strength = 20
+		
+
+		
+		build_cost_ic = 250
+		resources = {
+			#oil = 1
+			steel = 2
+		}
+		type = { 
+			submarine
+		}		
+	}
+	
+	submarine_3 = {
+		year = 1940
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_2
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 12
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 50
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 15
+		naval_speed = 16
+		reliability = 0.75
+		
+		naval_range = 5000
+		
+		max_strength = 30
+
+
+		
+		build_cost_ic = 350
+		resources = {
+			#oil = 2
+			steel = 2
+		}
+		type = { 
+			submarine
+		}		
+	}
+	
+	submarine_4 = {
+		year = 1944
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_3
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 20
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 16
+		reliability = 0.80
+
+		naval_range = 6000
+		
+		max_strength = 35
+		
+
+		
+		build_cost_ic = 400
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = { 
+			submarine
+		}		
 	}
 }
