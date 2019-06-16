@@ -6,7 +6,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		xor = { superior_firepower trench_warfare mass_assault } 
+		xor = { superior_firepower } 
 
 		path = {
 			leads_to_tech = delay 
@@ -909,7 +909,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		xor = { mobile_warfare trench_warfare mass_assault } 
+		xor = { mobile_warfare } 
 
 		path = {
 			leads_to_tech = sup_delay 
@@ -1759,7 +1759,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		xor = { mobile_warfare superior_firepower mass_assault } 
+		xor = { mass_assault } 
 	
 		max_dig_in = 10
 		dig_in_speed_factor = 0.25 #25% bonus
@@ -2602,7 +2602,7 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		xor = { mobile_warfare superior_firepower trench_warfare } 
+		xor = { trench_warfare } 
 
 		path = {
 			leads_to_tech = pocket_defence 
