@@ -391,7 +391,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 13
 		y = 0
-		cost = 5
+		cost = 2
 
 		ai_will_do = { factor = 1 }
 
@@ -656,7 +656,6 @@ continuous_focus_position = { x = 0 y = 1250 }
 		icon = GFX_goal_generic_construct_mil_factory
 
 		prerequisite = { focus = CZKE_armament_1 }
-		mutually_exclusive = { focus = CZKE_armament_2b }
 
 		x = 8
 		y = 4
@@ -677,7 +676,6 @@ continuous_focus_position = { x = 0 y = 1250 }
 		icon = GFX_goal_generic_modernizing_the_cavalry
 
 		prerequisite = { focus = CZKE_armament_1 focus = CZKE_mobile_army }
-		mutually_exclusive = { focus = CZKE_armament_2 }
 
 		x = 10
 		y = 4
@@ -1074,13 +1072,16 @@ continuous_focus_position = { x = 0 y = 1250 }
 		}
 
 		completion_reward = {
-				custom_effect_tooltip = new_land_doctrines
+			custom_effect_tooltip = new_land_doctrines
 				add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = land_doctrine
 			}
+			set_technology = { mobile_warfare = 1 }
+			set_technology = { superior_firepower = 1 }
+			set_technology = { trench_warfare = 1 }
 		}
 	}
 
