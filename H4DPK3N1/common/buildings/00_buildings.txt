@@ -6,10 +6,10 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 2750
+		base_cost = 2500
 		icon_frame = 3
 		infrastructure = yes
-		max_level = 12
+		max_level = 15
 		value = 1
 
 		show_modifier = yes
@@ -93,7 +93,7 @@ buildings = {
 	dockyard = {
 		show_on_map = 1
 		show_on_map_meshes = 3
-		base_cost = 6400
+		base_cost = 6000
 		only_costal = yes
 		naval_production = 1
 		icon_frame = 4
@@ -119,7 +119,7 @@ buildings = {
 
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 14500
+		base_cost = 12000
 		icon_frame = 10
 		#local_resources_oil = 1 # May use local_resources_ + any resource name
 		local_resources_rubber = 1 # May use local_resources_ + any resource name
@@ -130,7 +130,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		fuel_gain_from_states = 2.0 #per hour
+		fuel_gain_from_states = 2.5 #per hour
 	}
 
 	fuel_silo = {
@@ -160,9 +160,9 @@ buildings = {
 
 	rocket_site = {
 		show_on_map = 1
-		base_cost = 6400
+		base_cost = 6000
 		icon_frame = 12
-		rocket_production = 5
+		rocket_production = 10
 		rocket_launch_capacity = 1
 		max_level = 5
 		shares_slots = yes
@@ -172,7 +172,7 @@ buildings = {
 
 	nuclear_reactor = {
 		show_on_map = 1
-		base_cost = 30000
+		base_cost = 25000
 		icon_frame = 13
 		nuclear_reactor = yes
 		nuclear_production_factor = 1

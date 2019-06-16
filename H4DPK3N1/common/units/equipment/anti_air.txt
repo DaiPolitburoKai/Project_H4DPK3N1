@@ -37,7 +37,7 @@ equipments = {
 		air_attack = 19
 
 		#Space taken in convoy
-		lend_lease_cost = 3
+		lend_lease_cost = 2
 		
 		build_cost_ic = 4
 		resources = {
@@ -89,4 +89,28 @@ equipments = {
 			steel = 3
 		}
 	}
+
+###------> New Anti-Air <><> <><> <><> <><> <><>
+
+	anti_air_equipment_x = {
+		year = 1948
+
+		archetype = anti_air_equipment
+		parent = anti_air_equipment_3
+		priority = 80
+		visual_level = 3
+
+		soft_attack = 4.5
+		hard_attack = 19
+		ap_attack = 116
+		air_attack = 39
+
+		build_cost_ic = 7
+		resources = {
+			steel = 4
+		}
+	}
+
+###------> X <><> <><> <><> <><> <><>
+
 }
