@@ -396,7 +396,8 @@ continuous_focus_position = { x = 0 y = 1250 }
 		ai_will_do = { factor = 1 }
 
 		completion_reward = {
-
+		army_experience = 1200
+		add_political_power = 150
 		custom_effect_tooltip = new_military_advisor
 		show_ideas_tooltip = CZKE_jan_syrovy
 
@@ -407,6 +408,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		CZE = { country_event = { id = czke.200 days = 1 } }
 		custom_effect_tooltip = decision_reward
 		custom_effect_tooltip = CZKE_ministry_of_defense_tooltip_reward
+		
 		}
 	}
 	
