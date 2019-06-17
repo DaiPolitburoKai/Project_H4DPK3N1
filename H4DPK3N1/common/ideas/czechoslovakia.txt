@@ -694,9 +694,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_bunker_factor = 0.25
-				consumer_goods_factor = +0.15
-				industrial_capacity_factory = -0.15
+				production_speed_bunker_factor = 2.75
+				consumer_goods_factor = +0.05
+				industrial_capacity_factory = -0.05
 			}
 		}
 
@@ -712,7 +712,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_bunker_factor = 0.15
+				production_speed_bunker_factor = 2.0
 				consumer_goods_factor = +0.05
 				industrial_capacity_factory = -0.05
 			}
