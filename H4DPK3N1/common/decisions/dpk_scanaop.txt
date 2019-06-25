@@ -1,0 +1,468 @@
+prospect_for_resources = {
+	scanoil = { 
+		icon = oil
+
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 124
+		}
+
+		available = {
+			has_tech = excavation1
+			num_of_civilian_factories_available_for_projects > 1
+			owns_state = 124
+			controls_state = 124
+			has_manpower > 1000
+		}
+
+		visible = {
+			owns_state = 124
+			controls_state = 124
+			original_tag = SWE
+			has_manpower > 10000
+		}
+		days_remove = 45
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_manpower = -1000
+		}
+		remove_effect = { 
+			124 = {
+				add_resource = {
+					type = oil
+					amount = 25
+				}
+				add_resource = {
+					type = rubber
+					amount = 25
+				}
+				
+			}
+			add_manpower = 1000
+		}
+	}
+	scansteel = { 
+		icon = steel
+
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 124
+		}
+
+		available = {
+			has_tech = excavation1
+			num_of_civilian_factories_available_for_projects > 1
+			owns_state = 124
+			controls_state = 124
+			has_manpower > 1000
+		}
+
+		visible = {
+			owns_state = 124
+			controls_state = 124
+			original_tag = SWE
+			has_manpower > 10000
+		}
+		days_remove = 45
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_manpower = -1000
+		}
+		remove_effect = { 
+			124 = {
+				add_resource = {
+					type = steel
+					amount = 25
+				}
+				add_resource = {
+					type = aluminium
+					amount = 25
+				}
+				add_resource = {
+					type = tungsten
+					amount = 25
+				}
+				add_resource = {
+					type = chromium
+					amount = 25
+				}
+				
+			}
+			add_manpower = 1000
+		}
+	}
+	scanamp = { 
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 141
+		}
+
+		available = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+		}
+
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		days_remove = 7
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_manpower = 100000
+		}
+	}
+	scanapp = { 
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 141
+		}
+
+		available = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+		}
+		days_remove = 30
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_political_power = 2000
+		}
+	}
+	scanaxp = {
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 141
+		}
+
+		available = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+		}
+		days_remove = 30
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			army_experience = 500
+			navy_experience = 500
+			air_experience = 500
+		}
+	}
+	scanaresearch = {
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 141
+		}
+
+		available = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+		}
+
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 10.0
+				uses = 12
+				ahead_reduction = 6
+				category = artillery
+				category = synth_resources
+				category = computing_tech
+				category = nuclear
+				category = industry
+				category = electronics
+				category = land_doctrine
+				category = air_doctrine
+				category = naval_doctrine
+				category = jet_technology
+				category = dd_tech
+				category = cl_tech
+				category = ca_tech
+				category = radar_tech
+				
+			}
+			add_research_slot = 2
+		}
+	}
+	scanaresearchbonus = {
+		allowed = {
+			original_tag = SWE
+		}
+
+		highlight_states = {
+			state = 141
+		}
+
+		available = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+		}
+
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		cost = 25
+		days_remove = 180
+		
+		remove_effect = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 2
+				uses = 1
+				category = artillery
+				category = synth_resources
+				category = computing_tech
+				category = nuclear
+				category = industry
+				category = electronics
+				category = land_doctrine
+				category = air_doctrine
+				category = naval_doctrine
+				category = jet_technology
+				category = dd_tech
+				category = cl_tech
+				category = ca_tech
+				category = radar_tech
+				
+			}
+		}
+	}
+}
+propaganda_efforts = {
+	scanastabwar = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = { has_country_flag = war_propaganda_campaign_running }
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+		}
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		fire_only_once = no
+
+		days_remove = 90
+		days_re_enable = 90
+
+		cost = 200
+
+		modifier = {
+			war_support_weekly = 0.05
+			stability_weekly = 0.05
+		}
+
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+political_actions = {
+	scanafac = {
+		
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_fascist_civil_war
+				has_country_flag = open_up_political_discourse_fascism
+				has_idea_with_trait = fascist_demagogue
+			}
+			NOT = { has_government = fascism }
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+		
+		fire_only_once = no
+		
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			fascism_drift = 0.5
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	scanaind = {
+		icon = generic_civil_support
+		
+		allowed = {
+			original_tag = SWE
+		}
+		available = {
+			original_tag = SWE
+		}
+		visible = {
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+		
+		fire_only_once = no
+		
+		cost = 250
+
+		days_remove = 360
+
+		modifier = {
+			production_factory_max_efficiency_factor = 0.5
+			line_change_production_efficiency_factor = 0.5
+			production_factory_efficiency_gain_factor = 4
+			industrial_capacity_factory = 1
+			industrial_capacity_dockyard = 3
+			production_speed_buildings_factor = 3
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	scanacom = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_communist_civil_war
+				has_country_flag = open_up_political_discourse_communism
+				has_idea_with_trait = communist_revolutionary
+			}
+			NOT = { has_government = communism }
+			owns_state = 124
+			owns_state = 141
+			controls_state = 124
+			controls_state = 141
+			original_tag = SWE
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+		 
+		fire_only_once = no
+		
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			communism_drift = 0.5
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

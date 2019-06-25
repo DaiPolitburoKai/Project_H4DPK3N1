@@ -85,40 +85,40 @@ add_ideas = {
 create_field_marshal = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
+	traits = { fast_planner offensive_doctrine bearer_of_artillery }
 	skill = 3
-    attack_skill = 4
+    attack_skill = 5
     defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 1
+    planning_skill = 5
+    logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Josef Šnejdárek"
 	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 1
+	traits = { thorough_planner defensive_doctrine skilled_staffer bearer_of_artillery }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Richard Tesařík"
 	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { armor_officer }
+	traits = { armor_officer organizer ranger }
 	skill = 2
-    attack_skill = 4
+    attack_skill = 6
     defense_skill = 1
-    planning_skill = 1
+    planning_skill = 4
     logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Sergej Vojcechovský"
 	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { winter_specialist }
+	traits = { winter_specialist infantry_officer brilliant_strategist organizer adaptable }
 	skill = 3
     attack_skill = 4
     defense_skill = 3
@@ -129,13 +129,13 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Lev Prchala"
 	portrait_path = "gfx/leaders/CZE/Portrait_Czech_Lev_Prchala.dds"
-	traits = { caring_leader infantry_officer }
+	traits = { caring_leader infantry_officer skilled_staffer2 bearer_of_artillery organizer trait_mountaineer hill_fighter ranger }
 	id = 5630
-	skill = 2
-    attack_skill = 1
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
+	skill = 6
+    attack_skill = 5
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
 }
 #retire him in 1939, move to Slovakia if the country starts split.
 create_corps_commander = {
@@ -194,4 +194,7 @@ create_corps_commander = {
 			plane_engine_upgrade = 0
 			plane_reliability_upgrade = 1
 		}
-	}					
+	}
+
+
+	

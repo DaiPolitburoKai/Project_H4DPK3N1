@@ -22,6 +22,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = machine_tools_creation
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
@@ -31,6 +36,44 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	machine_tools_creation = {
+	
+	production_factory_efficiency_gain_factor = 0.15
+	
+	research_cost = 2.5
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 45
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	advanced_machine_tool_creation = {
+	
+		production_factory_efficiency_gain_factor = 0.15
+	
+		research_cost = 2.5
+		start_year = 1940
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 45
 		}
 		
 		categories = {
@@ -81,6 +124,10 @@ technologies = {
 
 		path = {
 			leads_to_tech = assembly_line_production 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = advanced_machine_tool_creation 
 			research_cost_coeff = 1
 		}
 		
@@ -1094,12 +1141,155 @@ technologies = {
 		
 		fuel_gain_factor = 0.20
 		fuel_gain_factor_from_states = 0.1
-
+		
+		path = {
+			leads_to_tech = fuel_refining6
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 3
 		start_year = 1943
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				tag = USA
+				factor = 0.5
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+			modifier = {
+				is_major = no
+				factor = 0.25
+			}
+			modifier = {
+				factor = 1.5
+				num_of_military_factories > 40
+			}	
+
+			modifier = {
+				factor = 1.5
+				num_of_naval_factories > 40
+			}				
+		}		
+	}
+	
+	fuel_refining6 = {
+		
+		fuel_gain_factor = 0.20
+		fuel_gain_factor_from_states = 0.1
+		
+		path = {
+			leads_to_tech = fuel_refining7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 1945
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				tag = USA
+				factor = 0.5
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+			modifier = {
+				is_major = no
+				factor = 0.25
+			}
+			modifier = {
+				factor = 1.5
+				num_of_military_factories > 40
+			}	
+
+			modifier = {
+				factor = 1.5
+				num_of_naval_factories > 40
+			}				
+		}		
+	}
+	fuel_refining7 = {
+		
+		fuel_gain_factor = 0.20
+		fuel_gain_factor_from_states = 0.1
+		
+		path = {
+			leads_to_tech = fuel_refining8
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 1948
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				tag = USA
+				factor = 0.5
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+			modifier = {
+				is_major = no
+				factor = 0.25
+			}
+			modifier = {
+				factor = 1.5
+				num_of_military_factories > 40
+			}	
+
+			modifier = {
+				factor = 1.5
+				num_of_naval_factories > 40
+			}				
+		}		
+	}
+	fuel_refining8 = {
+		
+		fuel_gain_factor = 0.20
+		fuel_gain_factor_from_states = 0.1
+		
+		
+		research_cost = 3
+		start_year = 1948
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 16 }
 		}
 		
 		categories = {
@@ -1253,7 +1443,14 @@ technologies = {
 	improved_oil_processing = {
 		
 		fuel_gain_factor_from_states = 0.5
-
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+		
 		path = {
 			leads_to_tech = advanced_oil_processing
 			research_cost_coeff = 1

@@ -545,7 +545,7 @@ leader_traits = {
 		cost = 2000
 		
 		corps_commander_modifier = {
-			max_commander_army_size = 6
+			max_commander_army_size = 8
 		}
 		
 		ai_will_do = {
@@ -554,6 +554,27 @@ leader_traits = {
 		logistics_skill_factor = 2
 		
 		gui_row = 15
+	}
+	skilled_staffer2 = { 
+		type = corps_commander
+		gain_xp = {
+			check_variable = { num_units > 34 }
+		}
+		parent = skilled_staffer
+
+		custom_gain_xp_trigger_tooltip = fighting_with_at_least_23_units
+		
+		cost = 2000
+		
+		corps_commander_modifier = {
+			max_commander_army_size = 12
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+
+		gui_row = 16
 	}
 	trickster = { 
 		type = corps_commander

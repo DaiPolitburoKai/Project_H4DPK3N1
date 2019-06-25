@@ -812,24 +812,24 @@ leader_traits = {
 	rop_director = {
 		random = no
 		sprite = 14
-		production_speed_bunker_factor = 0.2
-		dig_in_speed_factor = 0.05
+		production_speed_bunker_factor = 1
+		dig_in_speed_factor = 0.20
 	}	
 
 	king_of_the_shoes = {
 		random = no
 		sprite = 10
-		production_speed_industrial_complex_factor = 0.15
-		production_speed_infrastructure_factor = 0.15
+		production_speed_industrial_complex_factor = 1
+		production_speed_infrastructure_factor = 0.5
 	}
 
 	firearms_designer = {
 		random = no
 		sprite = 10
-
+		experience_gain_army = 10
 		equipment_bonus = {
 			infantry_equipment = {
-				reliability = 0.05
+				reliability = 0.10 soft_attack = 0.1 build_cost_ic = -0.1 instant = yes
 			}
 		}
 	}	

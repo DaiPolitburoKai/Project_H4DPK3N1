@@ -1,0 +1,20 @@
+music = {
+	name = "[xi-on] Gensou no Kekkai / Necrofantasia"
+	file = "[xi-on] Gensou no Kekkai Necrofantasia.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[xi-on] Dream Battle [Memory]"
+	file = "[xi-on] Dream Battle [Memory].ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[xi-on] ... ~ Border of Life"
+	file = "[xi-on] Bloom Noobly, Cherry Blossoms of Sumizome ~ Border of Life.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[xi-on] Overflow"
+	file = "[xi-on] Overflow.ogg"
+	volume = 0.70
+}

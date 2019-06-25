@@ -1,0 +1,115 @@
+music = {
+	name = "[Maritumix] 514"
+	file = "514.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[Maritumix] Blackout"
+	file = "Blackout.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] blades"
+	file = "blades.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[Maritumix] calm"
+	file = "calm.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[Maritumix] flow"
+	file = "flow.ogg"
+	volume = 0.70	
+}
+music = {
+	name = "[Maritumix] Hope star"
+	file = "Hope star.ogg"
+	volume = 0.70	
+}
+music = {
+	name = "[Maritumix] Crazy four seasons"
+	file = "Crazy four seasons.ogg"
+	volume = 0.70	
+}
+music = {
+	name = "[Maritumix] Blue memory"
+	file = "Blue-memory.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[Maritumix] Space development"
+	file = "Space-development.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] Strong ice"
+	file = "Strong-ice.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[Maritumix] Next dream"
+	file = "Next dream.ogg"
+	volume = 0.70
+}
+music = {
+	name = "[Maritumix] taboo word"
+	file = "taboo-word.ogg"
+	volume = 0.70	
+}
+music = {
+	name = "[Maritumix] Shoot the night"
+	file = "Shoot-the-night.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] Blue sky"
+	file = "Blue-sky.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] trauma"
+	file = "trauma.ogg"
+	volume = 0.70	
+}
+music = {
+	name = "[Maritumix] Color of Truth"
+	file = "Color of truth.ogg"
+	volume = 0.70	 	
+}
+music = {
+	name = "[Maritumix] Instinct"
+	file = "Instinct.ogg"
+	volume = 0.70	 	
+}
+music = {
+	name = "[Maritumix] Flame of Nuclear"
+	file = "Flame of Nuclear.ogg"
+	volume = 0.70	
+}
+music = {
+	name = "[Maritumix] Full of Desire"
+	file = "Full of desire.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] Artificial Sun"
+	file = "Artificial Sun.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] Dear 1969 - bygone times"
+	file = "Dear 1969 - bygone times.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] desirechain"
+	file = "desirechain.ogg"
+	volume = 0.70 	
+}
+music = {
+	name = "[Maritumix] Into the abyss"
+	file = "Into the abyss.ogg"
+	volume = 0.70 	
+}

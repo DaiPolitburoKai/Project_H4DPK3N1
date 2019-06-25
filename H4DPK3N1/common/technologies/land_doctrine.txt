@@ -1761,7 +1761,7 @@ technologies = {
 		
 		xor = { mass_assault } 
 	
-		max_dig_in = 10
+		max_dig_in = 20
 		dig_in_speed_factor = 0.25 #25% bonus
 		
 		
@@ -1811,7 +1811,7 @@ technologies = {
 		}
 		
 		#planning max bonus increase
-		max_planning = 0.1
+		max_planning = 0.25
 
 		doctrine = yes	
 		research_cost = 4.5
@@ -1855,7 +1855,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		category_all_infantry = {
-			defense = 0.10
+			defense = 0.20
 			max_organisation = 10
 		}
 		
@@ -2809,7 +2809,7 @@ technologies = {
 	
 	deep_operations = {
 		category_tanks = {
-			max_organisation = 2
+			max_organisation = 2.5
 		}
 		xp_research_type = army
 		xp_research_cost = 100
@@ -2863,8 +2863,8 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		max_planning = 0.10
-		land_reinforce_rate = 0.05
+		max_planning = 0.15
+		land_reinforce_rate = 0.075
 
 		enable_tactic = tactic_elastic_defense
 		
@@ -2917,7 +2917,7 @@ technologies = {
 		supply_consumption_factor = -0.10
 		
 		infantry = {
-			combat_width = -0.4
+			combat_width = -0.5
 		}
 
 		
@@ -2971,7 +2971,7 @@ technologies = {
 		xp_research_bonus = 1.00
 		category_tanks = {
 			max_organisation = 1
-			breakthrough = 0.10
+			breakthrough = 0.30
 		}
 		category_all_infantry = {
 			max_organisation = 5
@@ -3097,6 +3097,11 @@ technologies = {
 		land_reinforce_rate = 0.05
 		
 		enable_tactic = tactic_backhand_blow
+		
+		path = {
+			leads_to_tech = timed_corps_movements
+			research_cost_coeff = 1
+		}
 
 		doctrine = yes	
 		research_cost = 4.5
@@ -3110,6 +3115,51 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.1
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.35
+			}
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	timed_corps_movements = {
+		xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+		org_loss_when_moving = -0.2
+		river_crossing_factor = -0.1
+		mobilization_speed = 0.1
+		army_speed_factor = 0.1
+
+		doctrine = yes	
+		research_cost = 5
+		
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 20 }
 		}
 		
 		ai_will_do = {

@@ -851,8 +851,6 @@ technologies = {
 ###------> Means Branch <><> <><> <><> <><> <><>
 
 	etax_unity = {
-	
-		xor = { etax_business_interests }
 		
 		path = {
 			leads_to_tech = etax_broad_support 
@@ -893,9 +891,7 @@ technologies = {
 	}
 	
 	etax_business_interests = {
-	
-		xor = { etax_unity }
-		
+
 		path = {
 			leads_to_tech = etax_cost_plus 
 			research_cost_coeff = 1
@@ -903,7 +899,7 @@ technologies = {
 			
 		research_cost = 3.0
 		
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 0.45
 		
 		folder = {
 			name = etax_folder
@@ -930,9 +926,7 @@ technologies = {
 ###------> Ends Branch <><> <><> <><> <><> <><>
 
 	etax_glory = {
-	
-		xor = { etax_desperation }
-		
+
 		path = {
 			leads_to_tech = etax_purity 
 			research_cost_coeff = 1
@@ -977,9 +971,7 @@ technologies = {
 	}
 	
 	etax_desperation = {
-	
-		xor = { etax_glory }
-		
+
 		path = {
 			leads_to_tech = etax_no_qa 
 			research_cost_coeff = 1
@@ -1106,7 +1098,7 @@ technologies = {
 			
 		research_cost = 3.0
 		
-		industrial_capacity_factory = 0.10
+		industrial_capacity_factory = 0.30
 		
 		folder = {
 			name = etax_folder
@@ -1420,7 +1412,6 @@ technologies = {
 
 	etax_great_works = {
 		
-		xor = { etax_quality }
 			
 		research_cost = 3.0
 		
@@ -1454,8 +1445,7 @@ technologies = {
 	}
 	
 	etax_quality = {
-		
-		xor = { etax_great_works }
+	
 			
 		research_cost = 3.0
 		
@@ -1493,8 +1483,7 @@ technologies = {
 ###------> Grand Branch <><> <><> <><> <><> <><>
 
 	etax_the_bomb = {
-		
-		xor = { etax_super_soldiers }
+	
 		
 		doctrine = yes	
 		research_cost = 3.0
@@ -1527,8 +1516,6 @@ technologies = {
 	}
 	
 	etax_super_soldiers = {
-		
-		xor = { etax_the_bomb }
 		
 		doctrine = yes	
 		research_cost = 3.0

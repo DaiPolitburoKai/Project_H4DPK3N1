@@ -1,0 +1,16 @@
+music_station = "radio_touhou"
+
+music = {
+	song = "[ZUN] [Dr.LFR] Schrodinger's Bakeneko"
+	
+	chance = {
+		factor = 2
+	}	
+}
+music = {
+	song = "[ZUN] [FS] Bibliophile with a Deciphering Eye"
+	
+	chance = {
+		factor = 2
+	}		
+}

@@ -1,0 +1,16 @@
+#wasteland				0
+#enclave				0
+#tiny_island			0
+#small_island			1
+#pastoral				2
+#rural					3
+#town					5
+#developed_rural		6
+#statecatslots08		8
+#city					9
+#large_city				12
+#metropolis				14
+#statecatslots16		16
+#megalopolis			18
+#statecatslots21		21
+#statecatslots24		24

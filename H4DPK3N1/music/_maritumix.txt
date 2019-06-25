@@ -1,0 +1,231 @@
+music_station = "radio_touhou"
+
+music = {
+	song = "[Maritumix] 514"
+	
+	chance = {
+		factor = 2.5
+	}	
+}
+music = {
+	song = "[Maritumix] Blackout"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] blades"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] calm"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] flow"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Hope star"
+	
+	chance = {
+		factor = 2.5
+	}	 	
+}
+music = {
+	song = "[Maritumix] Crazy four seasons"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Blue memory"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Space development"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Strong ice"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Next dream"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] taboo word"
+	
+	chance = {
+		factor = 2.5
+	}	 	
+}
+music = {
+	song = "[Maritumix] Shoot the night"
+	
+	chance = {
+		factor = 2
+	}	 	
+}
+music = {
+	song = "[Maritumix] Blue sky"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] trauma"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Color of Truth"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = no
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Instinct"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Flame of Nuclear"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Full of Desire"
+	
+	chance = {
+		factor = 2.5
+	}	 	
+}
+music = {
+	song = "[Maritumix] Artificial Sun"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] Dear 1969 - bygone times"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[Maritumix] desirechain"
+	
+	chance = {
+		factor = 2.25
+	}	 	
+}
+music = {
+	song = "[Maritumix] Into the abyss"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}

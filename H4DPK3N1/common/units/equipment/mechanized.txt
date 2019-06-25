@@ -33,7 +33,7 @@ equipments = {
 
 		#Offensive Abilities
 		ap_attack = 11
-		air_attack = 0
+		air_attack = 3
 
 		#Space taken in convoy
 		lend_lease_cost = 5
@@ -44,7 +44,7 @@ equipments = {
 			#oil = 1
 			rubber = 1
 		}
-		fuel_consumption = 2.4
+		fuel_consumption = 2
 	}
 
 	# ~1941

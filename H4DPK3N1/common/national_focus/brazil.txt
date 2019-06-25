@@ -82,6 +82,10 @@ focus_tree = {
 		y = 2
 		relative_position_id = bra_a_voz_do_brasil
 		cost = 5
+		available = {
+			date < 1939.1.1
+			num_of_available_military_factories > 15
+		}
 		completion_reward = {
 			army_experience = 10
 			add_ideas = bra_consegnac_idea 
@@ -409,6 +413,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = bra_tecnocratic_reform
 		cost = 10
+		available = {
+			has_manpower > 250000
+		}
 		completion_reward = {
 				if = {
 						limit = { 
@@ -798,6 +805,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
+		available = {
+			date > 1940.1.1
+		}
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -1649,6 +1659,9 @@ focus = {
 		x = 0
 		y = 1
 		cost = 10
+		available = {
+			date > 1939.10.1
+		}
 		
 		completion_reward = {
 			495 = {
@@ -2232,6 +2245,7 @@ focus = {
 				has_completed_focus = bra_fiesp 
 				has_idea = bra_eficiencia_4
 			}
+			date > 1939.6.1
 		}
 		cost = 10
 		completion_reward = {

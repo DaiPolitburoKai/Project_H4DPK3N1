@@ -22,7 +22,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 2
 		y = 0
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = { factor = 1 }
 
@@ -43,7 +43,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 0
 		y = 1
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = {	factor = 0.4 }
 
@@ -66,7 +66,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 0
 		y = 4
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.5 }
 
@@ -127,7 +127,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 2
 		y = 1
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = { factor = 0.2	}
 
@@ -147,7 +147,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 1
 		y = 2
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = { factor = 0.8 }
 
@@ -167,7 +167,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 3
 		y = 2
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = {	factor = 0.2 }
 
@@ -198,7 +198,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 2
 		y = 4
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = { factor = 0.3 }
 
@@ -219,7 +219,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 1
 		y = 5
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 
@@ -239,7 +239,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 4
 		y = 1
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = {factor = 0.4	}
 
@@ -261,7 +261,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 4
 		y = 4
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = { factor = 0.6 }
 
@@ -282,7 +282,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 3
 		y = 5
-		cost = 10
+		cost = 8
 
 		ai_will_do = { factor = 0.6 }
 		completion_reward = {
@@ -302,7 +302,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 	
 		x = 2
 		y = 6
-		cost = 10
+		cost = 4
 	
 		ai_will_do = { factor = 1  }
 
@@ -323,7 +323,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 1
 		y = 7
-		cost = 10
+		cost = 8
 
 		ai_will_do = { factor = 0.3 }
 
@@ -391,12 +391,12 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 13
 		y = 0
-		cost = 2
+		cost = 1
 
 		ai_will_do = { factor = 1 }
 
 		completion_reward = {
-		army_experience = 1200
+		army_experience = 150
 		add_political_power = 150
 		custom_effect_tooltip = new_military_advisor
 		show_ideas_tooltip = CZKE_jan_syrovy
@@ -421,7 +421,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		x = 10
 		y = 1
 
-		cost = 5
+		cost = 2.5
 		ai_will_do = { factor = 1 }
 
 		bypass = { GER = { is_in_faction_with = CZE } }
@@ -447,7 +447,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 9
 		y = 2
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 			custom_effect_tooltip = new_research
@@ -469,7 +469,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 12
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		completion_reward = {
 		custom_effect_tooltip = new_military_advisor
@@ -490,7 +490,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 11
 		y = 2
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1	}
 
@@ -510,7 +510,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 12
 		y = 3
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1	}
 
@@ -553,7 +553,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 18
 		y = 1
-		cost = 5
+		cost = 3.5
 		completion_reward = {
 
 		custom_effect_tooltip = new_theorist
@@ -574,7 +574,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_ministry_of_defense }
 		x = 8
 		y = 1
-		cost = 5
+		cost = 1
 
 		ai_will_do = { factor = 1 }
 
@@ -599,7 +599,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 6
 		y = 2
-		cost = 5
+		cost = 2
 
 		ai_will_do = {	factor = 1 }
 		completion_reward = {
@@ -618,7 +618,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 6
 		y = 4
-		cost = 14.3
+		cost = 1
 
 		ai_will_do = { factor = 0.3	}
 
@@ -638,7 +638,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 9
 		y = 3
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 
@@ -661,7 +661,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 8
 		y = 4
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 
@@ -681,7 +681,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 10
 		y = 4
-		cost = 5
+		cost = 3.5
 
 		completion_reward = {
 			custom_effect_tooltip = new_idea_available_material
@@ -701,7 +701,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 6
 		y = 6
-		cost = 5
+		cost = 3.5
 
 		completion_reward = {
 			custom_effect_tooltip = new_idea_available_tank
@@ -720,15 +720,15 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 8
 		y = 6
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 		custom_effect_tooltip = new_research
 			add_tech_bonus = {
 				name = artillery_bonus
 				ahead_reduction = 0.75
-				bonus = 1
-				uses = 2
+				bonus = 3
+				uses = 5
 				category = artillery
 			}
 		}
@@ -750,8 +750,9 @@ continuous_focus_position = { x = 0 y = 1250 }
 			custom_effect_tooltip = new_research
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1
-				uses = 2
+				bonus = 2
+				ahead_reduction = 3
+				uses = 5
 				category = armor
 			}
 		}
@@ -765,7 +766,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 10
 		y = 6
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 		custom_effect_tooltip = new_research
@@ -808,7 +809,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 15
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.5 }
 
@@ -826,7 +827,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_air_is_our_sea }
 		x = 15
 		y = 2
-		cost = 5
+		cost = 3.5
 		ai_will_do = {
 			factor = 0.7
 		}
@@ -844,7 +845,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_czechoslovak_airforce }
 		x = 16
 		y = 3
-		cost = 5
+		cost = 3.5
 		ai_will_do = {
 			factor = 0.3
 		}	
@@ -870,7 +871,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_czechoslovak_airforce focus = CZKE_military_education }
 		x = 14
 		y = 3
-		cost = 5
+		cost = 3.5
 		
 		completion_reward = {
 			custom_effect_tooltip = new_report
@@ -886,7 +887,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_pilot_training focus = CZKE_soviet_treaties focus = CZKE_air_modernization }
 		x = 15
 		y = 4
-		cost = 5
+		cost = 3.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -902,10 +903,9 @@ continuous_focus_position = { x = 0 y = 1250 }
 		id = CZKE_new_airplane_prototypes
 		icon = GFX_goal_zero_blue
 		prerequisite = { focus = CZKE_armament_3 }
-		mutually_exclusive = { focus = CZKE_new_airplane_prototypes_2 }
 		x = 14
 		y = 5
-		cost = 10
+		cost = 8
 		ai_will_do = {
 			factor = 0.6
 		}
@@ -922,10 +922,9 @@ continuous_focus_position = { x = 0 y = 1250 }
 		icon = GFX_goal_multiple_bombers
 		prerequisite = { focus = CZKE_armament_3}
 		prerequisite = { focus = CZKE_soviet_treaties }
-		mutually_exclusive = { focus = CZKE_new_airplane_prototypes }
 		x = 16
 		y = 5
-		cost = 10
+		cost = 8
 		ai_will_do = {
 			factor = 0.4
 		}
@@ -943,7 +942,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_new_airplane_prototypes focus = CZKE_new_airplane_prototypes_2 }
 		x = 15
 		y = 6
-		cost = 10
+		cost = 8
 		
 		completion_reward = {
 			custom_effect_tooltip = new_research
@@ -1008,7 +1007,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 22
 		y = 0
-		cost = 5
+		cost = 2
 
 		ai_will_do = { factor = 1 }
 
@@ -1028,7 +1027,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_legacy_of_legions }
 		x = 24
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 
@@ -1047,7 +1046,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 22
 		y = 1
-		cost = 5
+		cost = 3.5
 		ai_will_do = {	factor = 0.7 }
 
 		completion_reward = {
@@ -1067,7 +1066,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_military_maneuvers focus = CZKE_reorganize_general_staff focus = CZKE_french_military_mission }
 		x = 22
 		y = 2
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = {
 			factor = 0.6
@@ -1097,7 +1096,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 25
 		y = 2
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.2	}
 
@@ -1118,7 +1117,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 24
 		y = 3
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.3 }
 
@@ -1141,7 +1140,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 26
 		y = 3
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.7	}
 
@@ -1167,7 +1166,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 24
 		y = 4
-		cost = 10
+		cost = 8
 
 		ai_will_do = { factor = 0 }
 
@@ -1203,7 +1202,7 @@ continuous_focus_position = { x = 0 y = 1250 }
  
 		x = 24
 		y = 5
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 			custom_effect_tooltip = political_power_cost	
@@ -1253,7 +1252,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 26
 		y = 5
-		cost = 10
+		cost = 8
 
 		ai_will_do = { factor = 0.2	}
 
@@ -1275,7 +1274,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
  		x = 26
  		y = 7
- 		cost = 10
+ 		cost = 8
 
 		ai_will_do = { factor = 0.2	}
 
@@ -1310,7 +1309,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 20
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = {
 			factor = 0.4
@@ -1345,7 +1344,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 19
 		y = 2
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 
@@ -1360,7 +1359,6 @@ continuous_focus_position = { x = 0 y = 1250 }
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 
 		prerequisite = { focus = CZKE_france_alliance }
-		mutually_exclusive = { focus = CZKE_revive_little_entente }
 
 		available = {
 			country_exists = SOV
@@ -1369,7 +1367,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 18
 		y = 3
-		cost = 5
+		cost = 3.5
 		ai_will_do = { factor = 0.7 }	
 
 		completion_reward = {
@@ -1398,7 +1396,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 	
 		x = 18
 		y = 6
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 		custom_effect_tooltip = new_diplomatic_event
@@ -1414,7 +1412,6 @@ continuous_focus_position = { x = 0 y = 1250 }
 		id = CZKE_revive_little_entente
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = CZKE_france_alliance }
-		mutually_exclusive = { focus = CZKE_soviet_treaties }
 		available = {
 			 NOT = { has_government = communism has_government = fascism }
 			is_puppet = no
@@ -1425,7 +1422,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		
 		x = 20
 		y = 3
-		cost = 10
+		cost = 8
 		ai_will_do = { factor = 0.3 }
 
 		completion_reward = {
@@ -1442,7 +1439,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_revive_little_entente }
 		x = 19
 		y = 4
-		cost = 10
+		cost = 8
 		available = {
 			is_puppet = no
 			has_war = no
@@ -1476,7 +1473,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_revive_little_entente }
 		x = 21
 		y = 4
-		cost = 10
+		cost = 8
 
 		available = {
 			is_puppet = no
@@ -1528,7 +1525,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 20
 		y = 5
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 			create_wargoal = {
@@ -1550,7 +1547,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		}
 		x = 20
 		y = 8
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 			custom_effect_tooltip = new_report
@@ -1569,7 +1566,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 30
 		y = 0
-		cost = 5
+		cost = 2.5
 
 		ai_will_do = { factor = 1 }
 
@@ -1589,7 +1586,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 29
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 
@@ -1610,7 +1607,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 27
 		y = 1
-		cost = 10
+		cost = 6
 
 		completion_reward = {
 			custom_effect_tooltip = new_report
@@ -1634,7 +1631,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 31
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.7 }
 
@@ -1660,7 +1657,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 33
 		y = 1
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.3 }
 
@@ -1681,7 +1678,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 30
 		y = 2
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.6 }
 
@@ -1720,7 +1717,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 32
 		y = 2
-		cost = 10
+		cost = 2.5
 
 		ai_will_do = { factor = 0.2	}
 
@@ -1742,7 +1739,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 34
 		y = 2
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 0.2	}
 
@@ -1765,7 +1762,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 29
 		y = 3
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 
@@ -1822,7 +1819,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 33
 		y = 3
-		cost = 10
+		cost = 2.5
 
 		completion_reward = {
 			custom_effect_tooltip = new_decision
@@ -1854,7 +1851,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 28
 		y = 4
-		cost = 5
+		cost = 3.5
 
 		ai_will_do = { factor = 1 }
 		
@@ -1890,7 +1887,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 28
 		y = 5
-		cost = 10
+		cost = 8
 
 		ai_will_do = { factor = 0.2 }		
 
@@ -1935,7 +1932,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 27
 		y = 6
-		cost = 10
+		cost = 8
 
 		ai_will_do = { factor = 0.2 }
 
@@ -1966,7 +1963,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 30
 		y = 4
-		cost = 10
+		cost = 8
 		
 		completion_reward = {
 		if = {
@@ -2006,7 +2003,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 30
 		y = 5
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 			custom_effect_tooltip = removes_communism_ideas	
@@ -2034,7 +2031,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 29
 		y = 6
-		cost = 10
+		cost = 8
 
 		available = {
 			country_exists = GER
@@ -2065,7 +2062,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 31
 		y = 6
-     	cost = 10
+     	cost = 8
 
      	available = {
 			is_in_faction = no
@@ -2104,7 +2101,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
  		x = 33
  		y = 5
- 		cost = 10
+ 		cost = 8
 
  		ai_will_do = { factor = 1 }
 
@@ -2136,7 +2133,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
  		x = 33
  		y = 8
- 		cost = 10
+ 		cost = 8
 
 		completion_reward = {
 			custom_effect_tooltip = new_diplomatic_event
@@ -2157,7 +2154,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 34
 		y = 4
-		cost = 10
+		cost = 8
 
 		completion_reward = {
  
@@ -2178,7 +2175,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 34
 		y = 7
-		cost = 10
+		cost = 8
 
 		completion_reward = {
 			hidden_effect = {
@@ -2203,7 +2200,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 28
 		y = 8
-		cost = 10
+		cost = 8
 
 		available = { country_exists = SOV is_in_faction = no has_government = communism }
 

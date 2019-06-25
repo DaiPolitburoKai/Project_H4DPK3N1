@@ -4,7 +4,7 @@ state={
 
 	resources = {
 
-		tungsten = 80 #biggest tungsten area in the world, to better represent it we would have to reduce Tungsten around the world
+		tungsten = 150 #biggest tungsten area in the world, to better represent it we would have to reduce Tungsten around the world
 
 	}
 
@@ -43,5 +43,5 @@ state={
 	}
 	manpower=15820400
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 }

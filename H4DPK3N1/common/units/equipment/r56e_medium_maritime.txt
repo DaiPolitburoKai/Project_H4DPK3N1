@@ -27,7 +27,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 0.8
+		reliability = 0.75
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 15
@@ -52,7 +52,6 @@ equipments = {
 		priority = 110
 
 		can_convert_from = {
-			tac_bomber_equipment_0
 			tac_bomber_equipment_1
 		}
 
@@ -66,7 +65,7 @@ equipments = {
 		naval_strike_attack = 16
 		naval_strike_targetting = 12
 
-		build_cost_ic = 39
+		build_cost_ic = 70
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -83,9 +82,6 @@ equipments = {
 		priority = 110
 
 		can_convert_from = {
-			med_maritime_equipment_1			
-			tac_bomber_equipment_0
-			tac_bomber_equipment_1
 			tac_bomber_equipment_2
 		}
 
@@ -99,7 +95,7 @@ equipments = {
 		naval_strike_attack = 18
 		naval_strike_targetting = 12
 
-		build_cost_ic = 41
+		build_cost_ic = 75
 		resources = {
 			aluminium = 4
 			rubber = 1
@@ -116,11 +112,6 @@ equipments = {
 		priority = 110
 
 		can_convert_from = {
-			med_maritime_equipment_1
-			med_maritime_equipment_2			
-			tac_bomber_equipment_0
-			tac_bomber_equipment_1
-			tac_bomber_equipment_2
 			tac_bomber_equipment_3
 		}
 
@@ -134,7 +125,7 @@ equipments = {
 		naval_strike_attack = 20
 		naval_strike_targetting = 7
 
-		build_cost_ic = 43
+		build_cost_ic = 80
 		resources = {
 			aluminium = 5
 			rubber = 1

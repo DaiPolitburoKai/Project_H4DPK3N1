@@ -1,0 +1,26 @@
+state_categories={
+	statecatslots24 = {
+		local_building_slots = 24
+	
+			color = { 0 250 250 }
+		#Shandong, Heibei (Bejing), Kanto, Kansi
+	}
+	statecatslots21 = {
+		local_building_slots = 21
+	
+			color = { 0 240 240 }
+		#Shandong, Heibei (Bejing), Kanto, Kansi
+	}
+	statecatslots16 = {
+		local_building_slots = 16
+	
+			color = { 0 240 240 }
+		#Shandong, Heibei (Bejing), Kanto, Kansi
+	}
+	statecatslots08 = {
+		local_building_slots = 8
+	
+			color = { 0 200 0 }
+		#Shandong, Heibei (Bejing), Kanto, Kansi
+	}
+}

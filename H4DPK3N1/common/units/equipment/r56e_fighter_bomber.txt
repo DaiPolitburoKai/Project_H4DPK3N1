@@ -25,7 +25,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 0.8
+		reliability = 0.68
 
 		# Air vs Navy - low damage / high hit chance / easy to hurt
 		naval_strike_attack = 5
@@ -34,7 +34,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 
-		build_cost_ic = 26
+		build_cost_ic = 34
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -53,8 +53,6 @@ equipments = {
 		priority = 10
 
 		can_convert_from = {
-			fighter_equipment_0
-			fighter_equipment_1
 			fighter_equipment_2
 		}
 
@@ -67,7 +65,7 @@ equipments = {
 		naval_strike_attack = 5
 		naval_strike_targetting = 8
 
-		build_cost_ic = 28
+		build_cost_ic = 38
 		resources = {
 			aluminium = 3
 			rubber = 1
@@ -84,10 +82,6 @@ equipments = {
 		priority = 10
 
 		can_convert_from = {
-			fighter_bomber_equipment_2
-			fighter_equipment_0
-			fighter_equipment_1
-			fighter_equipment_2
 			fighter_equipment_3
 		}
 
@@ -100,7 +94,7 @@ equipments = {
 		naval_strike_attack = 8
 		naval_strike_targetting = 8
 
-		build_cost_ic = 30
+		build_cost_ic = 42
 		resources = {
 			aluminium = 4
 			rubber = 1

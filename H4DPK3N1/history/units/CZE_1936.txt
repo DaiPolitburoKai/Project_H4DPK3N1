@@ -69,7 +69,7 @@ units = {
 		location = 11542  # Prague
 		division_template = "Jezdecká brigáda"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "1. fast"
@@ -91,7 +91,7 @@ units = {
 		location = 11542  # Prague
 		division_template = "Pěší divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "12. divize"
@@ -102,7 +102,7 @@ units = {
 		location = 11542  # Prague
 		division_template = "Pěší divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "16. divize"
@@ -113,7 +113,7 @@ units = {
 		location = 3569 # Brno
 		division_template = "Horská divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	# VIII Sbor
@@ -125,7 +125,7 @@ units = {
 		location = 3569 # Brno
 		division_template = "Pěší divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "2. fast"
@@ -136,7 +136,7 @@ units = {
 		location = 3569 # Brno
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "CZE" } }
 	}
 	division = { # "15. divize"
@@ -147,7 +147,7 @@ units = {
 		location = 9692  # Bratislava
 		division_template = "Pěší divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "21. divize"
@@ -158,7 +158,7 @@ units = {
 		location = 9692  # Bratislava
 		division_template = "Pěší divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = { # "3. fast"
@@ -169,7 +169,7 @@ units = {
 		location = 9692  # Bratislava
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.6
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "CZE" } }
 	}
 	division = { # "4. fast"
@@ -180,7 +180,7 @@ units = {
 		location = 9692  # Bratislava
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.5
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "CZE" } }
 	}
 	### I Armáda ###

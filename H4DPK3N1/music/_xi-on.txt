@@ -1,0 +1,46 @@
+music_station = "radio_touhou"
+
+music = {
+	song = "[xi-on] Gensou no Kekkai / Necrofantasia"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "[xi-on] Dream Battle [Memory]"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[xi-on] ... ~ Border of Life"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	}	 	
+}
+music = {
+	song = "[xi-on] Overflow"
+	
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 3
+			has_war = yes
+		}
+	} 	
+}

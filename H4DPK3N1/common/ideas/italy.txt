@@ -323,8 +323,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				planning_speed = -0.25
-				max_planning = -0.25
+				planning_speed = -0.15
+				max_planning = -0.15
 			}
 		}
 		italian_leadership_improved = { 
@@ -479,7 +479,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05				
+				stability_factor = 0.10				
 			}
 		}
 		vittoria_mutilata = {			

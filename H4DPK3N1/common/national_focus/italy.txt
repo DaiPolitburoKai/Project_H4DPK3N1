@@ -1088,7 +1088,6 @@ focus_tree = {
 		id = ITA_The_Old_guard
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = ITA_Regio_Esercito }
-		mutually_exclusive = { focus = ITA_Innovative_theories }
 		x = 15
 		y = 4
 		cost = 6
@@ -1251,7 +1250,6 @@ focus_tree = {
 		id = ITA_Innovative_theories
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = ITA_Regio_Esercito }
-		mutually_exclusive = { focus = ITA_The_Old_guard }
 		x = 17
 		y = 4
 		cost = 10

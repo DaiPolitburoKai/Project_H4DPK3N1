@@ -4,28 +4,28 @@ state=
 	name="STATE_525"
 	manpower = 14284105
 	
-	state_category = town
+	state_category = statecatslots08
 
 	resources={
-		tungsten=28 # was: 52 Sangdong mine is in south korea east of Seoul
+		tungsten=36 # was: 52 Sangdong mine is in south korea east of Seoul
 	}
 
 	history=
 	{
 		owner = JAP
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			arms_factory = 1
 			dockyard = 1
 			4056 = {
-				naval_base = 3
+				naval_base = 4
 			}
 		}
 		victory_points = {
 			4056 1 
 		}
 		victory_points = {
-			7125 3 
+			7125 5 
 		}
 
 		add_core_of = KOR

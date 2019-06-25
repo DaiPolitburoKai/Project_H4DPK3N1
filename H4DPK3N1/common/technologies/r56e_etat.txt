@@ -73,7 +73,7 @@ technologies = {
 			modify_building_resources = {
 				building = steel_mill
 				resource = steel
-				amount = 2
+				amount = 3
 			}
 		}
 
@@ -123,7 +123,7 @@ technologies = {
 			modify_building_resources = {
 				building = steel_mill
 				resource = steel
-				amount = 2
+				amount = 3
 			}
 		}
 		
@@ -173,7 +173,7 @@ technologies = {
 			modify_building_resources = {
 				building = steel_mill
 				resource = steel
-				amount = 2
+				amount = 3
 			}
 		}
 		
@@ -268,7 +268,7 @@ technologies = {
 			modify_building_resources = {
 				building = aluminum_mill
 				resource = aluminium
-				amount = 2
+				amount = 3
 			}
 		}
 		
@@ -323,7 +323,7 @@ technologies = {
 			modify_building_resources = {
 				building = aluminum_mill
 				resource = aluminium
-				amount = 2
+				amount = 3
 			}
 		}
 		
@@ -441,6 +441,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+
 		research_cost = 1.5
 		start_year = 1942
 
@@ -508,6 +509,241 @@ technologies = {
 		
 		categories = {
 			armor
+		}
+	}
+	engine = {
+
+		category_all_armor = {
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		nav_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		fighter = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		CAS = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		strat_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		tac_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		heavy_fighter = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		fighter_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		
+		path = {
+			leads_to_tech = engine_coolant
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1937
+
+		folder = {
+			name = etat_folder
+			position = { x = 0 y = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			air_doctrine
+		}
+	}
+	engine_coolant = {
+
+		category_all_armor = {
+			reliability = 0.05
+		}
+		nav_bomber = {
+			reliability = 0.05
+		}
+		fighter = {
+			reliability = 0.05
+		}
+		CAS = {
+			reliability = 0.05
+		}
+		strat_bomber = {
+			reliability = 0.05
+		}
+		tac_bomber = {
+			reliability = 0.05
+		}
+		heavy_fighter = {
+			reliability = 0.05
+		}
+		fighter_bomber = {
+			reliability = 0.05
+		}
+		
+		path = {
+			leads_to_tech = engine_super_and_turbochargers
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1940
+
+		folder = {
+			name = etat_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			air_doctrine
+		}
+	}
+	engine_super_and_turbochargers = {
+
+		category_all_armor = {
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		nav_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		fighter = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		CAS = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		strat_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		tac_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		heavy_fighter = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		fighter_bomber = {
+			air_range = -0.05
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		mechanized = {
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		motorized = {
+			fuel_consumption = 0.05
+			maximum_speed = 0.15
+		}
+		
+		path = {
+			leads_to_tech = engine_regulators
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1942
+
+		folder = {
+			name = etat_folder
+			position = { x = 0 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			air_doctrine
+		}
+	}
+	engine_regulators = {
+
+		category_all_armor = {
+			fuel_consumption = -0.075
+		}
+		nav_bomber = {
+			fuel_consumption = -0.075
+		}
+		fighter = {
+			fuel_consumption = -0.075
+		}
+		CAS = {
+			fuel_consumption = -0.075
+		}
+		strat_bomber = {
+			fuel_consumption = -0.075
+		}
+		tac_bomber = {
+			fuel_consumption = -0.075
+		}
+		heavy_fighter = {
+			fuel_consumption = -0.075
+		}
+		fighter_bomber = {
+			fuel_consumption = -0.075
+		}
+		mechanized = {
+			fuel_consumption = -0.075
+		}
+		motorized = {
+			fuel_consumption = -0.075
+		}
+
+		research_cost = 3
+		start_year = 1944
+
+		folder = {
+			name = etat_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			air_doctrine
 		}
 	}
 	

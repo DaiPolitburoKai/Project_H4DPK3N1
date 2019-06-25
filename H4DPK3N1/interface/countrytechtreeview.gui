@@ -4427,7 +4427,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "etat_year_right"
-				position = { x=-90 y=40
+				position = { x=-60 y=40
 				}
 				size = { width = 80 height = 100% }
 				orientation = upper_right
@@ -4613,7 +4613,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-			
+			gridboxtype = {
+				name = "engine_tree"
+				position = { x = 1625 y = 172 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 			gridboxtype = {
 				name = "droptank40_tree"
 				position = { x = 1475 y = 172 }

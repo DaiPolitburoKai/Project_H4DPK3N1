@@ -864,6 +864,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GER_rhineland }
 		
+		
 		x = 16
 		y = 1
 		
@@ -894,6 +895,7 @@ focus_tree = {
 			NOT = { 
 				has_idea = rhineland_challenge_met 
 			}
+			date > 1937.6.1
 		}
 
 		bypass = {
@@ -1017,6 +1019,7 @@ focus_tree = {
 			has_army_manpower = { 
 				size > 599999 
 			}
+			date > 1938.4.1
 		}
 		
 		bypass = {
@@ -1112,6 +1115,7 @@ focus_tree = {
 			has_army_manpower = { 
 				size > 599999 
 			}
+			date > 1938.4.1
 		}
 		
 		bypass = {

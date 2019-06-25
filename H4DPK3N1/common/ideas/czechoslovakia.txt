@@ -401,6 +401,9 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				global_building_slots_factor = 0.1
 			}
 		}
 		
@@ -539,7 +542,9 @@ ideas = {
 			
 			allowed_civil_war = { has_government = democratic }
 
-			traits = { popular_figurehead }
+			traits = { popular_figureheaddpk }
+			
+			
 		}	
 
 		emil_hacha = { ###### ADDED EVENT CZKE.8
@@ -603,12 +608,12 @@ ideas = {
 			allowed_civil_war = { always = no }
 
 			modifier = {
-				conscription_factor = -0.2
-				political_power_cost = 0.75
+				conscription_factor = -0.1
+				political_power_cost = 0.25
 				join_faction_tension = +0.8
 				guarantee_tension = 0.3
-				fascism_drift = 0.05
-				stability_factor = -0.1
+				fascism_drift = 0.02
+				stability_factor = -0.05
 
 			}	
 		}
@@ -639,7 +644,7 @@ ideas = {
 			picture = generic_victors_of_ww1
 			
 			modifier = {
-				training_time_army_factor = -0.90
+				training_time_army_factor = -0.60
 			}
 		}
 
@@ -658,8 +663,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				research_speed_factor = 0.05
+				research_speed_factor = 0.10
 				trade_opinion_factor = 0.2
+				industrial_capacity_factory = 0.2
 			}
 		}
 
@@ -679,7 +685,7 @@ ideas = {
 
 			removal_cost = -1
 
-			modifier = { training_time_army_factor = -0.1 }
+			modifier = { training_time_army_factor = -0.2 consumer_goods_factor = -0.05 }
 		}
 
 		CZKE_rop_idea = { ###### ADDED VIA EVENT CZKE.201
@@ -694,8 +700,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_bunker_factor = 2.75
-				consumer_goods_factor = +0.05
+				production_speed_bunker_factor = 4
+				consumer_goods_factor = -0.1
 				industrial_capacity_factory = -0.05
 			}
 		}
@@ -712,8 +718,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_bunker_factor = 2.0
-				consumer_goods_factor = +0.05
+				production_speed_bunker_factor = 4
+				consumer_goods_factor = -0.1
 				industrial_capacity_factory = -0.05
 			}
 		}
@@ -775,7 +781,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				research_speed_factor = 0.05
+				research_speed_factor = 0.10
 			}
 		}
 
@@ -796,7 +802,7 @@ ideas = {
 
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.15 instant = yes
 				}
 			}
 		}
@@ -815,7 +821,22 @@ ideas = {
 
 			equipment_bonus = {
 				artillery_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.2 soft_attack = 0.2 defense = 0.10 reliability = 0.1 instant = yes
+				}
+				light_tank_artillery_equipment = {
+					build_cost_ic = -0.05 soft_attack = 0.25 defense = 0.10 reliability = 0.05 instant = yes
+				}
+				medium_tank_artillery_equipment = {
+					build_cost_ic = -0.05 soft_attack = 0.25 defense = 0.10 reliability = 0.05 instant = yes
+				}
+				heavy_tank_artillery_equipment = {
+					build_cost_ic = -0.05 soft_attack = 0.25 defense = 0.10 reliability = 0.05 instant = yes
+				}
+				super_heavy_tank_artillery_equipment = {
+					build_cost_ic = -0.05 soft_attack = 0.25 defense = 0.10 reliability = 0.05 instant = yes
+				}
+				modern_tank_artillery_equipment = {
+					build_cost_ic = -0.05 soft_attack = 0.25 defense = 0.10 reliability = 0.05 instant = yes
 				}
 			}
 		}	
@@ -834,7 +855,7 @@ ideas = {
 
 			equipment_bonus = {
 				light_tank_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.1 soft_attack = 0.1 maximum_speed = 0.1 armor_value = 0.1 instant = yes
 				}
 			}
 		}	
@@ -853,6 +874,9 @@ ideas = {
 
 			equipment_bonus = {
 				motorized_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+				mechanized_equipment = {
 					build_cost_ic = -0.2 instant = yes
 				}
 			}
@@ -887,8 +911,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteers_tension = -0.48
-				send_volunteer_divisions_required = -0.10
+				send_volunteers_tension = -0.96
+				send_volunteer_divisions_required = -0.64
 			}
 		}
 
@@ -945,8 +969,8 @@ ideas = {
 			}			
 
 			modifier = {
-				decryption_factor = 0.2
-				communism_drift = 0.02
+				decryption_factor = 0.33
+				communism_drift = 0.033
 			}
 		}
 
@@ -962,7 +986,10 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			
-			modifier = { conscription_factor = 0.05	}
+			modifier = {
+				conscription_factor = 0.40	
+				MONTHLY_POPULATION = 0.25
+			}
 		}
 
 		CZKE_sokol_movement_1 = { ###### ADDED VIA EVENT CZKE.403
@@ -1517,7 +1544,7 @@ ideas = {
 
 			available = { has_country_flag = chief_luza_appointed }
 			
-			traits = { army_chief_maneuver_2 }
+			traits = { army_chief_maneuver_3 }
 
 			cost = 50
 			
@@ -1664,7 +1691,7 @@ ideas = {
 			available = { has_completed_focus = CZKE_military_education }
 			available = { NOT = { has_country_flag = chief_luza_appointed } }
 
-			traits = { army_armored_2 }
+			traits = { army_armored_3 }
 			
 			cost = 50
 
@@ -1687,7 +1714,7 @@ ideas = {
 				has_unit_leader = 5630  
 			}
 
-			traits = { army_infantry_2 }
+			traits = { army_infantry_3 }
 
 			cost = 50
 			
@@ -1703,7 +1730,7 @@ ideas = {
 			available = { has_country_flag = republic_defense_government }
 			available = { NOT = { has_government = fascism } }
 
-			traits = { army_regrouping_2 }
+			traits = { army_regrouping_3 }
 
 			cost = 50			
 	
@@ -1783,7 +1810,7 @@ ideas = {
 
 
 			research_bonus = {
-				infantry_weapons = 0.075
+				infantry_weapons = 0.45
 			}
 
 			ai_will_do = {
@@ -1854,6 +1881,9 @@ ideas = {
 			
 			equipment_bonus = {
 				# made light/medium tanks panzerkampfwagen 38
+				armor = {
+					soft_attack = 0.1 ap_attack = 0.25 breakthrough = 0.25 build_cost_ic = -0.05 armor_value = 0.1
+				}
 			}
 		}
 
@@ -2000,12 +2030,13 @@ ideas = {
 			}
 			
 			research_bonus = {
-				industry = 0.15
+				industry = 0.3
 			}
 			
 			traits = { industrial_concern }
 			
 			modifier = {
+				global_building_slots_factor = 0.40
 			}
 			ai_will_do = {
 				factor = 1
@@ -2059,21 +2090,17 @@ ideas = {
 				original_tag = CZE
 			}
 
-			available = {
-				has_completed_focus = CZKE_armament_1
-			}
-
 			cost = 50
 			
 			research_bonus = {
-				infantry_weapons = 0.15
+				infantry_weapons = 0.20
 			}
 			
 			traits = { infantry_equipment_manufacturer }
 
 			equipment_bonus = {
 				infantry_equipment = {
-					reliability = 0.10
+					reliability = 0.15 build_cost_ic = -0.1 soft_attack = 0.20 maximum_speed = 0.25 defense = 0.1
 				}
 			}			
 			
@@ -2091,12 +2118,57 @@ ideas = {
 			}
 			
 			research_bonus = {
-				artillery = 0.15
+				artillery = 0.25
 			}
 	
 			traits = { artillery_manufacturer }
 			
 			equipment_bonus = {
+				anti_air_equipment = {
+					air_attack = 0.5 build_cost_ic = -0.1
+				}
+				light_tank_aa_equipment = {
+					air_attack = 0.5 build_cost_ic = -0.1
+				}
+				medium_tank_aa_equipment = {
+					air_attack = 0.5 build_cost_ic = -0.1
+				}
+				heavy_tank_aa_equipment = {
+					air_attack = 0.5 build_cost_ic = -0.1
+				}
+				super_heavy_tank_aa_equipment = {
+					air_attack = 0.5 build_cost_ic = -0.1
+				}
+				modern_tank_aa_equipment = {
+					air_attack = 0.5 build_cost_ic = -0.1
+				}
+				carrier = {
+					anti_air_attack = 0.1
+				}
+				capital_ship = {
+					anti_air_attack = 0.1
+				}
+				screen_ship = {
+					anti_air_attack = 0.1
+				}
+				artillery = {
+					reliability = 0.1 build_cost_ic = -0.1
+				}
+				light_tank_artillery_equipment = {
+					reliability = 0.05 build_cost_ic = -0.05
+				}
+				medium_tank_artillery_equipment = {
+					reliability = 0.05 build_cost_ic = -0.05
+				}
+				heavy_tank_artillery_equipment = {
+					reliability = 0.05 build_cost_ic = -0.05
+				}
+				super_heavy_tank_artillery_equipment = {
+					reliability = 0.05 build_cost_ic = -0.05
+				}
+				modern_tank_artillery_equipment = {
+					reliability = 0.05 build_cost_ic = -0.05
+				}
 			}
 		}
 		tatra = {
@@ -2111,14 +2183,17 @@ ideas = {
 			}
 			
 			research_bonus = {
-				motorized_equipment = 0.12
+				motorized_equipment = 0.25
 			}
 			
 			traits = { motorized_equipment_manufacturer }
 			
 			equipment_bonus = {
 				mechanized_equipment = {
-					reliability = 0.05
+					reliability = 0.05 maximum_speed = 0.25
+				}
+				motorized_equipment  = {
+					reliability = 0.05 maximum_speed = 0.25
 				}
 			}
 

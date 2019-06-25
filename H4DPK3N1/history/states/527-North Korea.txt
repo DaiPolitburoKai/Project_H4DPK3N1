@@ -3,21 +3,21 @@ state={
 	id=527
 	name="STATE_527"
 	manpower = 6774200
-	state_category = town
+	state_category = statecatslots08
 	resources={
-		steel=18 # was: 30
+		steel=30 # was: 30
 		#tungsten=28 # was: 52 Sangdong mine is in south korea east of Seoul
 	}
 
 	history={
 		owner = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
 		}
 		
 		victory_points = {
-			4052 1
+			4052 2
 		}	
 
 		add_core_of = KOR
