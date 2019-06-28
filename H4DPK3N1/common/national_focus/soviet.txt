@@ -58,7 +58,7 @@ focus = {
 		icon = gfx_five_year_plan_continue
 		x = 1
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 11
 		}
@@ -87,7 +87,7 @@ focus = {
 					}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 					}
 				}
@@ -95,14 +95,14 @@ focus = {
 			219 = {
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
 			217 = {
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -119,10 +119,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = SOV_finished_five_year_plan
@@ -138,10 +138,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -156,10 +156,27 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -1799,10 +1816,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = SOV_finished_five_year_plan
@@ -1818,10 +1835,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -1836,10 +1853,36 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+			prioritize = { 253 }
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		252 = {
+			add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -2594,6 +2637,60 @@ focus = {
 			unlock_decision_tooltip = SOV_relocate_industry_from_moscow
 			unlock_decision_tooltip = SOV_relocate_industry_from_leningrad
 			unlock_decision_tooltip = SOV_relocate_industry_from_smolensk
+			242 = {
+				add_extra_state_shared_building_slots = 12
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
+			195 = {
+				add_extra_state_shared_building_slots = 12
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
+			219 = {
+				add_extra_state_shared_building_slots = 12
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
 		}
 	}
 
@@ -2862,6 +2959,9 @@ focus = {
 				uses = 1
 				technology = improved_light_tank
 			}
+			set_technology = { engine = 1 }
+			set_technology = { engine_coolant = 1 }
+			set_technology = { engine_regulators = 1 }
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = morozov_design_bureau
 			modify_timed_idea = {
@@ -5057,7 +5157,7 @@ focus = {
 		}
 		x = 34
 		y = 0
-		cost = 28.6
+		cost = 14.3
 		ai_will_do = {
 			factor = 9
 		}

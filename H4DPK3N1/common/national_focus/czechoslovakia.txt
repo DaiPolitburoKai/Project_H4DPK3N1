@@ -22,7 +22,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 2
 		y = 0
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 1 }
 
@@ -43,7 +43,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 0
 		y = 1
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = {	factor = 0.4 }
 
@@ -66,7 +66,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 0
 		y = 4
-		cost = 3.5
+		cost = 4
 
 		ai_will_do = { factor = 0.5 }
 
@@ -127,7 +127,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 2
 		y = 1
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 0.2	}
 
@@ -147,7 +147,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 1
 		y = 2
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 0.8 }
 
@@ -167,7 +167,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 3
 		y = 2
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = {	factor = 0.2 }
 
@@ -198,7 +198,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 2
 		y = 4
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 0.3 }
 
@@ -219,7 +219,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 1
 		y = 5
-		cost = 3.5
+		cost = 4
 
 		ai_will_do = { factor = 1 }
 
@@ -239,7 +239,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 4
 		y = 1
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = {factor = 0.4	}
 
@@ -261,7 +261,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 4
 		y = 4
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 0.6 }
 
@@ -391,7 +391,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 13
 		y = 0
-		cost = 1
+		cost = 1.5
 
 		ai_will_do = { factor = 1 }
 
@@ -421,7 +421,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		x = 10
 		y = 1
 
-		cost = 2.5
+		cost = 2.9
 		ai_will_do = { factor = 1 }
 
 		bypass = { GER = { is_in_faction_with = CZE } }
@@ -574,7 +574,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 		prerequisite = { focus = CZKE_ministry_of_defense }
 		x = 8
 		y = 1
-		cost = 1
+		cost = 1.5
 
 		ai_will_do = { factor = 1 }
 
@@ -618,7 +618,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 6
 		y = 4
-		cost = 1
+		cost = 1.5
 
 		ai_will_do = { factor = 0.3	}
 
@@ -1566,7 +1566,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 30
 		y = 0
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 1 }
 
@@ -1717,7 +1717,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 32
 		y = 2
-		cost = 2.5
+		cost = 2.9
 
 		ai_will_do = { factor = 0.2	}
 
@@ -1786,7 +1786,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 31
 		y = 3
-		cost = 1
+		cost = 1.5
 
 		completion_reward = {
 			custom_effect_tooltip = new_report
@@ -1819,7 +1819,7 @@ continuous_focus_position = { x = 0 y = 1250 }
 
 		x = 33
 		y = 3
-		cost = 2.5
+		cost = 2.9
 
 		completion_reward = {
 			custom_effect_tooltip = new_decision

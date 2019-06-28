@@ -163,6 +163,21 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = artillery3
@@ -216,6 +231,21 @@ technologies = {
 			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -309,6 +339,21 @@ technologies = {
 		}
 		mot_artillery_brigade = {
 			soft_attack = 0.1			  
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
 		}
 		path = {
 			leads_to_tech = artillery_a
@@ -621,6 +666,21 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.1
 		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
 		
 		tech_air_damage_factor = -0.02			
 
@@ -720,6 +780,21 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.1
 		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
 		
 		tech_air_damage_factor = -0.02
 
@@ -768,6 +843,21 @@ technologies = {
 			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
 			air_attack = 0.1
 		}
 
@@ -1683,6 +1773,21 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = artillery_b
@@ -1743,6 +1848,21 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = artillery_d
@@ -1778,6 +1898,21 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = artillery_e
@@ -1811,6 +1946,21 @@ technologies = {
 			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -2050,6 +2200,21 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.1
 		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
 
 		tech_air_damage_factor = -0.02
 		
@@ -2082,6 +2247,21 @@ technologies = {
 			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
 			air_attack = 0.1
 		}
 
@@ -2153,6 +2333,21 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.1
 		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
 
 		tech_air_damage_factor = -0.02
 		
@@ -2190,6 +2385,21 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.1
 		}	
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
 
 		tech_air_damage_factor = -0.02	
 

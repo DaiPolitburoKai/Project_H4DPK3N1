@@ -3004,6 +3004,12 @@ ideas = {
 				armor = 0.15
 			}
 			
+			equipment_bonus = {
+				armor = {
+					hard_attack = 0.33 ap_attack = 0.33 breakthrough = 0.35 armor_value = 0.2  build_cost_ic = 0.2 soft_attack = 0.15
+				}
+			}
+			
 			traits = { heavy_tank_manufacturer }
 
 		}
@@ -3023,6 +3029,12 @@ ideas = {
 			}
 			
 			traits = { fast_tank_manufacturer }
+			
+			equipment_bonus = {
+				armor = {
+					hard_attack = 0.15 ap_attack = 0.25 breakthrough = 0.2 armor_value = 0.1 build_cost_ic = 0.1 soft_attack = 0.15
+				}
+			}
 			
 			ai_will_do = {
 				factor = 1
@@ -3045,6 +3057,12 @@ ideas = {
 			}
 			
 			traits = { medium_tank_manufacturer }
+			
+			equipment_bonus = {
+				armor = {
+					hard_attack = 0.25 ap_attack = 0.25 breakthrough = 0.25 armor_value = 0.2  build_cost_ic = 0.15 soft_attack = 0.15
+				}
+			}
 
 			ai_will_do = {
 				factor = 1
@@ -3443,7 +3461,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				land_doctrine = 0.1
+				land_doctrine = 0.25
 			}
 			
 			

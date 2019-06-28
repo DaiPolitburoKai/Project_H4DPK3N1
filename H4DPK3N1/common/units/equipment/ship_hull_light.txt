@@ -140,7 +140,7 @@ equipments = {
 		year = 1922
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2250
 		#alias = destroyer_1
 		
 		module_slots = inherit

@@ -15,6 +15,36 @@ focus_tree = {
 	continuous_focus_position = { x = 0 y = 1100 }
 
 	focus = {
+		id = ITA_test_op_debug
+		icon = GFX_focus_generic_steel
+		x = 50
+		y = 25
+		cost = 0.5
+		ai_will_do = {
+			factor = -1
+		}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+				}
+				add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
 		id = ITA_ethiopian_war_logistics
 		icon = GFX_goal_generic_position_armies
 		x = 15
@@ -1608,6 +1638,9 @@ focus_tree = {
 					}
 					
 			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 3
+			}
 			add_resource = {
 				type = steel
 				amount = 15
@@ -1625,7 +1658,6 @@ focus_tree = {
 		id = ITA_Dockyards_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = ITA_Expand_ILVA_and_IRI }
-		mutually_exclusive = { focus = ITA_Increase_factory_output }
 		x = 22
 		y = 7
 		cost = 8
@@ -1773,7 +1805,6 @@ focus_tree = {
 		id = ITA_Increase_factory_output
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = ITA_Expand_ILVA_and_IRI }
-		mutually_exclusive = { focus = ITA_Dockyards_effort }
 		x = 20
 		y = 7
 		cost = 8
@@ -1794,6 +1825,14 @@ focus_tree = {
 						add_building_construction = {
 							type = arms_factory
 							level = 3
+							instant_build = yes
+						}
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+							type = arms_factory
+							level = 1
 							instant_build = yes
 						}
 			}

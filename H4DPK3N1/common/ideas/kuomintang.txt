@@ -1436,7 +1436,23 @@ ideas = {
 			
 		}
 			
+		KMT_competent_industry = {
+			removal_cost = -1
+			picture = FRA_factory_strikes
 			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+				global_building_slots_factor = 0.6
+			}
+			
+		}
 		
 		public_iliteracy = {
 			removal_cost = -1

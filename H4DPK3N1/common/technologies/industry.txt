@@ -44,7 +44,7 @@ technologies = {
 	}
 	machine_tools_creation = {
 	
-	production_factory_efficiency_gain_factor = 0.15
+	production_factory_efficiency_gain_factor = 0.20
 	
 	research_cost = 2.5
 		start_year = 1936
@@ -84,7 +84,7 @@ technologies = {
 	#Machine tools branch		   
 	improved_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.15
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
@@ -120,7 +120,7 @@ technologies = {
 	
 	advanced_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.15
 
 		path = {
 			leads_to_tech = assembly_line_production 

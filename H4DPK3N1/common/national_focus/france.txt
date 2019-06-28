@@ -1858,6 +1858,9 @@ focus_tree = {
 				}
 				custom_effect_tooltip = FRA_popular_front_united_tooltip2
 			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	

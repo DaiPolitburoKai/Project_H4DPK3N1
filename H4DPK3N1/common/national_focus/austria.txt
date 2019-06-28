@@ -468,6 +468,34 @@ focus_tree = {
 			}
 		}
 	}
+		
+	focus = {
+		id = AUS_industry_24
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = AUS_subsidize_STRABAG_construction }
+		x = 14
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+		
+		available = {
+			date > 1941.1.1
+			is_in_faction = no
+			is_puppet = no
+		}
+		
+		available_if_capitulated = no
+		
+		cancel_if_invalid = no
+
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 9
+			}
+		}
+	}
 	
 	focus = {
 		id = AUS_extend_the_grossglockner_highway
@@ -3141,7 +3169,6 @@ focus_tree = {
 		id = AUS_a_stealthier_approach
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = AUS_recreate_the_kuk_kriegsmarine }
-		mutually_exclusive = { focus = AUS_sieze_the_adriatic focus = AUS_push_for_the_mediterranean }
 		x = 23
 		y = 3
 		cost = 10
@@ -3166,7 +3193,6 @@ focus_tree = {
 		id = AUS_sieze_the_adriatic
 		icon = GFX_focus_generic_cruiser2
 		prerequisite = { focus = AUS_recreate_the_kuk_kriegsmarine }
-		mutually_exclusive = { focus = AUS_a_stealthier_approach focus = AUS_push_for_the_mediterranean }
 		x = 25
 		y = 3
 		cost = 10
@@ -3192,7 +3218,6 @@ focus_tree = {
 		id = AUS_push_for_the_mediterranean
 		icon = GFX_focus_generic_navy_battleship2
 		prerequisite = { focus = AUS_recreate_the_kuk_kriegsmarine }
-		mutually_exclusive = { focus = AUS_a_stealthier_approach focus = AUS_sieze_the_adriatic }
 		x = 27
 		y = 3
 		cost = 10

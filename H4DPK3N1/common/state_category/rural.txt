@@ -5,4 +5,10 @@ state_categories={
 		color = { 240 160 0 }
 
 	}
+	statecatslots04 = {
+		local_building_slots = 4
+	
+		color = { 240 160 0 }
+
+	}
 }

@@ -1674,6 +1674,11 @@ country_event = {
                     tank_gun_upgrade = 2
                 }
             }
+			add_equipment_to_stockpile = {
+				type = light_tank_equipment_2
+				amount = 850
+				producer = CZE
+			}
         }
 	}
 

@@ -124,7 +124,7 @@ units = {
 		location = 9859 #Ominato Naval Base
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.55
 		
 	}
 	division = {
@@ -132,7 +132,7 @@ units = {
 		location = 1399 #Shumshu
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
+		start_equipment_factor = 0.55	
 	}
 	division = { # "Karafuto Dokuritsu Konsei Ryodan"
 		division_name = {
@@ -142,6 +142,7 @@ units = {
 		location = 12446 #Toyohara
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 
 	#Chuo Homengun - East Japan Army
@@ -153,6 +154,7 @@ units = {
 		location = 7087 #Shizuoka
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = { # "Konoe Shidan"
 		division_name = {
@@ -162,19 +164,21 @@ units = {
 		location = 1182 #Tokyo
 		division_template = "Jidousha Shidan"			# Elite Guard unit (highest experience, best equipment)
 		start_experience_factor = 0.4
+		start_equipment_factor = 0.95
 	}
 	division = {
 		name = "Osaka Kichi Kaiheidan"
 		location = 7072 #Osaka
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
+		start_equipment_factor = 0.55	
 	}
 	division = {
 		name = "Yokusaka Tokubetsu Rikusentai"
 		location = 9998 #Yokosuka
 		division_template = "Rikusentai"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
 	}
 
 	#Roppou Homengun - West Japan Army
@@ -186,13 +190,14 @@ units = {
 		location = 9950 #Nagasaki
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = {
 		name = "Kure Kichi Kaiheidan"
 		location = 1092 #Hiroshima
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.55
 		
 	}
 	division = {
@@ -200,7 +205,7 @@ units = {
 		location = 9950 #Sasebo/Nagasaki
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 
 
@@ -210,7 +215,7 @@ units = {
 		location = 7186 #Taipei
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 
 	#3 Homengun - 3rd Field Army
@@ -222,6 +227,7 @@ units = {
 		location = 7186 #Taipei
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = { # "6 'Mei' Hohei Shidan"
 		division_name = {
@@ -231,6 +237,7 @@ units = {
 		location = 7186 #Taipei
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = { # "11 'Nishiki' Hohei Shidan"
 		division_name = {
@@ -240,6 +247,7 @@ units = {
 		location = 7186 #Taipei
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 
 
@@ -252,6 +260,7 @@ units = {
 		location = 4052 #Pyongyang
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = { # "20 'Asa' Hohei Shidan"
 		division_name = {
@@ -261,13 +270,14 @@ units = {
 		location = 7125 #Seoul
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = {
 		name = "Chinkai Kichi Kaiheidan"
 		location = 4056 #Pusan
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 
 
@@ -278,7 +288,7 @@ units = {
 		location = 11932 #Naha
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
+		start_equipment_factor = 0.55	
 	}
 
 
@@ -288,21 +298,21 @@ units = {
 		location = 3995 #Saipan
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Iwoto Kichi Shubitai"
 		location = 13025 #Iwo Jima
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Minamitorishima Kichi Shubitai"
 		location = 13026 #Marcus Island
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
+		start_equipment_factor = 0.55	
 	}
 
 	#2 Konkyochi Ichigun
@@ -311,21 +321,21 @@ units = {
 		location = 13028 #Yap
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Palau Kichi Shubitai"
 		location = 4357 #Palau
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Truk Kichi Shubitai"
 		location = 2489 #Truk
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Satawan Kichi Shubitai"
@@ -333,7 +343,7 @@ units = {
 
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.55
 		
 	}
 	division = {
@@ -341,7 +351,7 @@ units = {
 		location = 13029 #Ulithi
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 
 	#3 Konkyochi Ichigun
@@ -350,35 +360,35 @@ units = {
 		location = 13041 #Kwajalein
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Eniwetok Kichi Shubitai"
 		location = 13046 #Eniwetok
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Ponape Kichi Shubitai"
 		location = 13036 #Ponape
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Mili Kichi Shubitai"
 		location = 13040 #Mili
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = {
 		name = "Maleolap Kichi Shubitai"
 		location = 13043 #Maleolap
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.55
 		
 	}
 
@@ -391,21 +401,21 @@ units = {
 		location = 11771 #Mukden
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7	
+		start_equipment_factor = 0.8	
 	}
 	division = {
 		name = "Kantogun Shureibu Keibitai"
 		location = 4572 #Hsinking
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7		
+		start_equipment_factor = 0.8		
 	}
 	division = {
 		name = "Ryojun Kichi Shubitai"
 		location = 1150 #Dalian
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.55		
 	}
 	division = { # "9 'Take' Hohei Shidan"
 		division_name = {
@@ -415,6 +425,7 @@ units = {
 		location = 3944 #Near Changkufeng Lake
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = { # "14 'Sho' Hohei Shidan"
 		division_name = {
@@ -424,20 +435,21 @@ units = {
 		location = 3843 #Eastern Manchuria
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	#Hoppou Manchuko Homengun - Northern Manchukuo Army
 	division = {
 		name = "1 Dokuritsu Shubirentai"
 		location = 7743
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_equipment_factor = 0.7		
+		start_equipment_factor = 0.8		
 	}
 	division = {
 		name = "2 Dokuritsu Shubirentai"
 		location = 10541
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7		
+		start_equipment_factor = 0.8		
 	}
 	division = { # "1 'Gyoku' Hohei Shidan"
 		division_name = {
@@ -447,6 +459,7 @@ units = {
 		location = 10612
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	division = { # "1 Kiheishidan"
 		division_name = {
@@ -456,6 +469,7 @@ units = {
 		location = 7697
 		division_template = "Kihei Shidan"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.95
 	}
 
 	# 5 Homengun - 5th Field Army
@@ -464,7 +478,7 @@ units = {
 		location = 10521
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 		
 	}
 	division = {
@@ -472,7 +486,7 @@ units = {
 		location = 10368
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 		
 	}
 	division = {
@@ -480,7 +494,7 @@ units = {
 		location = 10698
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 		
 	}
 	division = {
@@ -488,7 +502,7 @@ units = {
 		location = 12500
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 		
 	}
 	division = { # "8 'Sugi' Hohei Shidan"
@@ -499,6 +513,7 @@ units = {
 		location = 1693
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
 	}
 	division = { # "12 'Ken' Hohei Shidan"
 		division_name = {
@@ -508,6 +523,7 @@ units = {
 		location = 7569
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
 	}
 	
 	### Chumo Gun -- Inner Mongolian Army ###
@@ -757,9 +773,9 @@ instant_effect =
 			type = infantry_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 3
+		requested_factories = 4
 		progress = 0.1
-		efficiency = 50
+		efficiency = 90
 	}
 
 	add_equipment_production = {

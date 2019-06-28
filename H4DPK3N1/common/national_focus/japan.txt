@@ -2112,6 +2112,11 @@ focus_tree = {
 			else = {
 				add_ideas = war_economy
 			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 12000
+				producer = JAP
+			}
 		}
 	}
 
@@ -2294,6 +2299,9 @@ focus_tree = {
 			}
 			else = {
 				add_ideas = tot_economic_mobilisation
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 	}
@@ -4498,7 +4506,6 @@ focus_tree = {
 		id = JAP_supremacy_of_technology
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = JAP_small_arms_modernization }
-		mutually_exclusive = { focus = JAP_supremacy_of_will }
 		x = 0
 		y = 1
 		relative_position_id = JAP_small_arms_modernization
@@ -4678,7 +4685,6 @@ focus_tree = {
 		id = JAP_supremacy_of_will
 		icon = GFX_goal_supremacy_of_will
 		prerequisite = { focus = JAP_army_expansion }
-		mutually_exclusive = { focus = JAP_supremacy_of_technology }
 		x = 0
 		y = 1
 		relative_position_id = JAP_army_expansion
@@ -5137,7 +5143,6 @@ focus_tree = {
 		id = JAP_carrier_warfare_experiments
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = JAP_new_naval_estimates }
-		mutually_exclusive = { focus = JAP_supremacy_of_the_battlefleet }
 		x = -1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
@@ -5168,8 +5173,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_carrier_warfare_experiments
-				bonus = 1
-				uses = 2
+				bonus = 2
+				uses = 4
 				category = cat_base_strike
 			}
 		}
@@ -5283,7 +5288,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_modern_escorts
-				bonus = 1
+				bonus = 1.25
 				uses = 1
 				category = dd_tech
 			}
@@ -5294,7 +5299,6 @@ focus_tree = {
 		id = JAP_supremacy_of_the_battlefleet
 		icon = GFX_focus_generic_navy_battleship2
 		prerequisite = { focus = JAP_new_naval_estimates }
-		mutually_exclusive = { focus = JAP_carrier_warfare_experiments }
 		x = 1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
@@ -5321,7 +5325,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_supremacy_of_the_battlefleet
-				bonus = 1
+				bonus = 1.33
 				uses = 1
 				category = bb_tech
 			}

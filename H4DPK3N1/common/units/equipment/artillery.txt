@@ -48,7 +48,7 @@ equipments = {
 	artillery_equipment_1 = {
 		year = 1934
 		archetype = artillery_equipment
-		priority = 50
+		priority = 30
 		visual_level = 0
 	}
 	
@@ -56,7 +56,7 @@ equipments = {
 		year = 1939
 		archetype = artillery_equipment
 		parent = artillery_equipment_1
-		priority = 50
+		priority = 35
 		visual_level = 1
 
 		defense = 15
@@ -74,7 +74,7 @@ equipments = {
 		year = 1942
 		archetype = artillery_equipment
 		parent = artillery_equipment_2
-		priority = 50
+		priority = 40
 		visual_level = 2
 		
 		defense = 18
@@ -134,7 +134,7 @@ equipments = {
 	rocket_artillery_equipment_1 = {
 		year = 1940
 		archetype = rocket_artillery_equipment
-		priority = 60
+		priority = 40
 		visual_level = 0
 	}
 	
@@ -142,7 +142,7 @@ equipments = {
 		year = 1943
 		archetype = rocket_artillery_equipment
 		parent = rocket_artillery_equipment_1
-		priority = 60
+		priority = 45
 		visual_level = 1
 		
 		defense = 15
@@ -164,7 +164,7 @@ equipments = {
 
 		archetype = artillery_equipment
 		parent = artillery_equipment_3
-		priority = 50
+		priority = 45
 		visual_level = 3
 		
 		defense = 25
@@ -187,7 +187,7 @@ equipments = {
 
 		archetype = rocket_artillery_equipment
 		parent = rocket_artillery_equipment_2
-		priority = 60
+		priority = 50
 		visual_level = 2
 		
 		defense = 22

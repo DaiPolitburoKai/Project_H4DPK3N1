@@ -1369,7 +1369,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			date > 1938.1.1
 		}
 		
 		bypass = {
@@ -1905,7 +1905,8 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			democratic > 0.95
+			democratic > 0.70
+			OR = { threat > .40 date > 1940.6.1 democratic > 0.98 }	
 		}
 		bypass = {
 			AND = {
@@ -1946,9 +1947,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			navy_experience = 50
-			army_experience = 50
-			air_experience = 10
+			navy_experience = 150
+			army_experience = 150
+			air_experience = 175
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = ROOT
@@ -1974,6 +1975,42 @@ focus_tree = {
 						size > 2
 						include_locked = yes
 					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = USA_arsenal_of_democracy_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = USA_arsenal_of_democracy_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = USA_arsenal_of_democracy_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
 				}
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -2030,7 +2067,7 @@ focus_tree = {
 				has_war = yes
 				has_war_support > 0.3
 			}
-			democratic > 0.95
+			democratic > 0.90
 		}
 		continue_if_invalid = yes
 		x = 0
@@ -2088,6 +2125,9 @@ focus_tree = {
 			add_ideas = wartime_industry_focus
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = USA_general_motors
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	
