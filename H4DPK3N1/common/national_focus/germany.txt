@@ -4402,7 +4402,7 @@ focus_tree = {
 		x = 33
 		y = 6
 		
-		cost = 10
+		cost = 21.5
 		
 		ai_will_do = {
 			factor = 10
@@ -4418,6 +4418,8 @@ focus_tree = {
 			SOV = {
 				r56_script_target_is_sane = yes
 			}
+			date > 1940.1.1
+			has_army_manpower  = { size > 2000000 }
 		}
 		
 		bypass = {

@@ -1952,9 +1952,10 @@ focus_tree = {
 				limit = {
 					has_state_flag = JAP_nationalize_war_industry_AF
 				}
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -1962,11 +1963,15 @@ focus_tree = {
 				limit = {
 					has_state_flag = JAP_nationalize_war_industry_IC
 				}
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 
@@ -2077,7 +2082,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_guide_the_zaibatsus
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -2097,24 +2102,17 @@ focus_tree = {
 
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_war_support < 0.5
-				}
-				add_war_support = 0.1
-			}
-			else_if = {
-				limit = {
-					has_idea = war_economy
-				}
-				add_political_power = 150
-			}
-			else = {
-				add_ideas = war_economy
-			}
+			add_war_support = 0.20
+			add_political_power = 225
+			add_ideas = war_economy
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = 12000
+				amount = 36000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 6000
 				producer = JAP
 			}
 		}
@@ -2128,7 +2126,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_national_mobilization_law
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 4
@@ -2201,6 +2199,9 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 
@@ -2314,7 +2315,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_national_defense_state
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4

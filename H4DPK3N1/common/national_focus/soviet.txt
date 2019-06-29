@@ -119,10 +119,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 9
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 				set_state_flag = SOV_finished_five_year_plan
@@ -138,10 +138,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 9
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -156,10 +156,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -173,10 +173,10 @@ focus = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -189,6 +189,13 @@ focus = {
 					days = 50
 				}
 			}
+			every_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					ROOT = { has_full_control_of_state = PREV }
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 
 	focus = {
@@ -197,7 +204,7 @@ focus = {
 		prerequisite = { focus = SOV_finish_the_five_year_plan }
 		x = 0
 		y = 1
-		cost = 5
+		cost = 2.9
 		ai_will_do = {
 			factor = 11
 		}
@@ -431,7 +438,7 @@ focus = {
 		prerequisite = { focus = SOV_finish_the_five_year_plan }
 		x = 2
 		y = 1
-		cost = 5
+		cost = 2.9
 		ai_will_do = {
 			factor = 11
 		}
@@ -664,7 +671,7 @@ focus = {
 		prerequisite = { focus = SOV_siberian_railnetworks }
 		x = 1
 		y = 2
-		cost = 10
+		cost = 2.9
 
 		ai_will_do = {
 			factor = 11
@@ -1457,12 +1464,13 @@ focus = {
 
 		completion_reward = {
 
-			add_political_power = 25
+			add_political_power = 50
 
 			add_tech_bonus = {
 				name = construction_bonus
-				bonus = 1
-				uses = 1
+				bonus = 3
+				ahead_reduction = 1
+				uses = 2
 				category = construction_tech
 			}
 
@@ -1480,7 +1488,7 @@ focus = {
 				}
 				add_timed_idea = {
 					idea = SOV_engineering_push
-					days = 30
+					days = 60
 				}
 			}
 
@@ -1878,6 +1886,40 @@ focus = {
 					instant_build = yes
 				}
 			}
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
 		252 = {
 			add_extra_state_shared_building_slots = 4
 				add_building_construction = {
@@ -1912,7 +1954,7 @@ focus = {
 		prerequisite = { focus = SOV_third_five_year_plan }
 		x = 4
 		y = 1
-		cost = 10
+		cost = 2.9
 		ai_will_do = {
 			factor = 8
 		}
@@ -1943,17 +1985,17 @@ focus = {
 			}
 			add_resource = {
 					type = steel
-					amount = 10
+					amount = 32
 					state = 582
 					}
 			add_resource = {
 					type = steel
-					amount = 10
+					amount = 16
 					state = 652
 					}
 			add_resource = {
 					type = steel
-					amount = 10
+					amount = 16
 					state = 249
 					}
 			modify_timed_idea = {
@@ -2287,6 +2329,33 @@ focus = {
 			modify_timed_idea = {
 					idea = SOV_revolutionized_industry_2
 					days = 100
+			}
+			253 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			252 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			351 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			248 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			255 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			254 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			250 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			256 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			400 = {
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 	}
