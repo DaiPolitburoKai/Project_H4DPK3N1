@@ -1,0 +1,241 @@
+political_actions = {
+	FRA_unlock_decisions = {
+	
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			original_tag = FRA
+		}
+		visible = {
+			original_tag = FRA
+			date > 1936.1.3
+			date < 1936.1.5
+		}
+		fire_only_once = yes	
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {	
+			set_country_flag = FRAdicisionsunlocked
+		}	
+	}
+	FRA_slots_decisions = {
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		visible = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {				
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	FRA_research_decisions = {
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		visible = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {				
+			add_tech_bonus = {
+				bonus = 6
+				ahead_reduction = 2
+				uses = 2
+				category = light_air
+				category = medium_air
+				category =heavy_air
+				category =armor
+				category =cat_light_armor
+				category =cat_medium_armor
+				category =cat_heavy_armor
+				category =artillery
+				category =cat_anti_tank
+				category =naval_air
+				category =infantry_weapons
+				category =motorized_equipment
+				category =cat_mechanized_equipment
+				category =naval_equipment
+				category =rocketry
+				category =nuclear
+				category =industry
+				category =electronics
+				category =land_doctrine
+				category =air_doctrine
+				category =naval_doctrine
+				category =strategic_destruction_tree
+				category =battlefield_support_tree
+				category =operational_integrity_tree
+				category =jet_technology
+				category =trade_interdiction_tree
+				category =convoy_defense_tree
+				category =light_fighter
+				category =cat_heavy_fighter
+				category =tactical_bomber
+				category =cat_strategic_bomber
+				category =naval_bomber
+				category =cas_bomber
+				category =dd_tech
+				category =cl_tech
+				category =ca_tech
+				category =cv_tech
+				category =bc_tech
+				category =bb_tech
+				category =shbb_tech
+				category =ss_tech
+				category =tp_tech
+				category =synth_resources
+				category =fleet_in_being_tree
+				category =encryption_tech
+				category =decryption_tech
+				category =computing_tech
+				category =radar_tech
+				category =infantry_tech
+				category =marine_tech
+				category =construction_tech
+				category =excavation_tech
+				category =submarine_doctrine
+				category =air_equipment
+				category =cat_mobile_warfare
+				category =cat_superior_firepower
+				category =cat_grand_battle_plan
+				category =cat_mass_assault
+				category =cat_base_strike
+				category =cat_trade_interdiction
+				category =cat_fleet_in_being
+				category =cat_strategic_destruction
+				category =cat_battlefield_support
+				category =cat_operational_integrity
+				category =night_vision
+				category =base_strike_main
+				category =mot_rockets
+				category =support_tech
+				category =para_tech
+				category =engineers_tech
+				category =recon_tech
+				category =mountaineers_tech
+				category =military_police_tech
+				category =hospital_tech
+				category =logistics_tech
+				category =signal_company_tech
+				category =maintenance_company_tech
+				category =naval_mines
+				category =concentrated_industry_category
+				category =dispersed_industry_category
+				category =asw_tech
+				category =naval_minesweeping
+				category =naval_minelaying
+				category =maritime
+				category =cvl_tech
+				category =fighter_bomber
+				category =asw_tech
+				category =torpedo_equipment
+				category =armored_cars_tech
+				category =desert_infantry_tech
+				category =jungle_infantry_tech
+				category =summer_clothing_tech
+				category =winter_clothing_tech
+			}
+		}
+	}
+	FRA_pop_growth_dec = {
+
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		visible = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		fire_only_once = no	
+		days_remove = 360
+		modifier = {
+				MONTHLY_POPULATION = 25
+		}
+		ai_will_do = {
+			factor = -1
+		}
+	}
+	FRA_pp_dec = {
+
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		visible = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		fire_only_once = no	
+		days_remove = 30
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			add_political_power = 500
+			army_experience = 500
+			air_experience = 500
+			navy_experience = 500
+		}
+	}
+	FRA_ind_dec = {
+
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			original_tag = FRA
+		}
+		visible = {
+			original_tag = FRA
+			has_country_flag = FRAdicisionsunlocked
+		}
+		fire_only_once = no	
+		days_remove = 360
+		modifier = {
+				production_speed_buildings_factor = 3
+				industrial_capacity_factory = 1
+				production_factory_efficiency_gain_factor = 10
+				line_change_production_efficiency_factor = 10
+				production_factory_start_efficiency_factor = 1
+				fuel_gain_factor = 3
+				fuel_gain_factor_from_states = 3
+		}
+		ai_will_do = {
+			factor = -1
+		}
+	}
+}
