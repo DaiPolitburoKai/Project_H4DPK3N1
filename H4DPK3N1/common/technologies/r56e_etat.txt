@@ -73,7 +73,7 @@ technologies = {
 			modify_building_resources = {
 				building = steel_mill
 				resource = steel
-				amount = 3
+				amount = 4
 			}
 		}
 
@@ -123,7 +123,7 @@ technologies = {
 			modify_building_resources = {
 				building = steel_mill
 				resource = steel
-				amount = 3
+				amount = 4
 			}
 		}
 		
@@ -173,7 +173,7 @@ technologies = {
 			modify_building_resources = {
 				building = steel_mill
 				resource = steel
-				amount = 3
+				amount = 4
 			}
 		}
 		
@@ -268,7 +268,7 @@ technologies = {
 			modify_building_resources = {
 				building = aluminum_mill
 				resource = aluminium
-				amount = 3
+				amount = 4
 			}
 		}
 		
@@ -323,7 +323,7 @@ technologies = {
 			modify_building_resources = {
 				building = aluminum_mill
 				resource = aluminium
-				amount = 3
+				amount = 4
 			}
 		}
 		
