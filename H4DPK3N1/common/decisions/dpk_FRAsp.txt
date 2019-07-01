@@ -2,13 +2,10 @@ political_actions = {
 	FRA_unlock_decisions = {
 	
 		allowed = {
-			original_tag = FRA
 		}
 		available = {
-			original_tag = FRA
 		}
 		visible = {
-			original_tag = FRA
 			date > 1936.1.3
 			date < 1936.1.5
 		}
@@ -22,14 +19,11 @@ political_actions = {
 	}
 	FRA_slots_decisions = {
 		allowed = {
-			original_tag = FRA
 		}
 		available = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		visible = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		
@@ -38,20 +32,20 @@ political_actions = {
 		}
 		complete_effect = {				
 			every_owned_state = {
-				add_extra_state_shared_building_slots = 1
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
 	FRA_research_decisions = {
 		allowed = {
-			original_tag = FRA
 		}
 		available = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		visible = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		ai_will_do = {
@@ -60,8 +54,8 @@ political_actions = {
 		complete_effect = {				
 			add_tech_bonus = {
 				bonus = 6
-				ahead_reduction = 2
-				uses = 2
+				ahead_reduction = 4
+				uses = 3
 				category = light_air
 				category = medium_air
 				category =heavy_air
@@ -148,7 +142,6 @@ political_actions = {
 				category =maritime
 				category =cvl_tech
 				category =fighter_bomber
-				category =asw_tech
 				category =torpedo_equipment
 				category =armored_cars_tech
 				category =desert_infantry_tech
@@ -163,20 +156,17 @@ political_actions = {
 		icon = generic_army_support
 
 		allowed = {
-			original_tag = FRA
 		}
 		available = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		visible = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		fire_only_once = no	
 		days_remove = 360
 		modifier = {
-				MONTHLY_POPULATION = 25
+				MONTHLY_POPULATION = 50
 		}
 		ai_will_do = {
 			factor = -1
@@ -187,14 +177,11 @@ political_actions = {
 		icon = generic_army_support
 
 		allowed = {
-			original_tag = FRA
 		}
 		available = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		visible = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		fire_only_once = no	
@@ -209,25 +196,59 @@ political_actions = {
 			navy_experience = 500
 		}
 	}
+	FRA_ress1_dec = {
+
+		allowed = {
+		}
+		available = {
+			has_country_flag = FRAdicisionsunlocked
+		}
+		visible = {
+			has_country_flag = FRAdicisionsunlocked
+		}
+		fire_only_once = yes	
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			add_research_slot = 1
+		}
+	}
+	FRA_ress2_dec = {
+
+		allowed = {
+		}
+		available = {
+			has_country_flag = FRAdicisionsunlocked
+		}
+		visible = {
+			has_country_flag = FRAdicisionsunlocked
+		}
+		fire_only_once = yes	
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			add_research_slot = 1
+		}
+	}
 	FRA_ind_dec = {
 
 		icon = generic_army_support
 
 		allowed = {
-			original_tag = FRA
 		}
 		available = {
-			original_tag = FRA
 		}
 		visible = {
-			original_tag = FRA
 			has_country_flag = FRAdicisionsunlocked
 		}
 		fire_only_once = no	
 		days_remove = 360
 		modifier = {
-				production_speed_buildings_factor = 3
-				industrial_capacity_factory = 1
+				production_speed_buildings_factor = 8
+				industrial_capacity_factory = 3
+				industrial_capacity_dockyard = 3
 				production_factory_efficiency_gain_factor = 10
 				line_change_production_efficiency_factor = 10
 				production_factory_start_efficiency_factor = 1
@@ -236,6 +257,35 @@ political_actions = {
 		}
 		ai_will_do = {
 			factor = -1
+		}
+	}
+	FRA_doct_dec = {
+
+		icon = generic_army_support
+
+		allowed = {
+		}
+		available = {
+		}
+		visible = {
+			has_country_flag = FRAdicisionsunlocked
+		}
+		fire_only_once = no	
+		days_remove = 360
+		ai_will_do = {
+			factor = -1
+		}
+		complete_effect = {
+			set_technology = { mobile_warfare = 1 }
+			set_technology = { superior_firepower = 1}
+			set_technology = { trench_warfare = 1}
+			set_technology = { mass_assault = 1}
+			set_technology = { fleet_in_being = 1}
+			set_technology = { trade_interdiction = 1}
+			set_technology = { base_strike = 1}
+			set_technology = { air_superiority = 1}
+			set_technology = { force_rotation = 1}
+			set_technology = { formation_flying = 1}
 		}
 	}
 }

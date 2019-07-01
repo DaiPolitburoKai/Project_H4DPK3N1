@@ -121,7 +121,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2000
 		
 		max_strength = 25
 		
@@ -185,7 +185,7 @@ equipments = {
 
 
 		reliability = 0.85
-		naval_range = 1800
+		naval_range = 2300
 		max_strength = 40
 		build_cost_ic = 500
 		resources = {
@@ -239,7 +239,7 @@ equipments = {
 		surface_detection = 20
 		surface_visibility = 10
 		reliability = 0.90
-		naval_range = 2000
+		naval_range = 2500
 		max_strength = 50
 		build_cost_ic = 550
 		manpower = 400
@@ -288,7 +288,7 @@ equipments = {
 
 		surface_detection = 20
 		reliability = 0.92
-		naval_range = 2500
+		naval_range = 3000
 		max_strength = 60
 		build_cost_ic = 700
 		resources = {
@@ -296,6 +296,384 @@ equipments = {
 			chromium = 1
 		}
 		manpower = 500
+	}
+	ship_hull_light_5 = {
+		year = 1948
+
+		archetype = ship_hull_light
+		priority = 2000
+		parent = ship_hull_light_4
+		#alias = destroyer_5
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_4_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_torpedo
+					ship_sonar
+					ship_radar
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			mid_5_custom_slot = inherit
+			mid_6_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+				}
+			}
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 3
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		surface_detection = 20
+		reliability = 0.92
+		naval_range = 3500
+		max_strength = 65
+		build_cost_ic = 760
+		resources = {
+			steel = 5
+			chromium = 1
+		}
+	}
+	ship_hull_light_6 = {
+		year = 1952
+
+		archetype = ship_hull_light
+		priority = 2000
+		parent = ship_hull_light_5
+		#alias = destroyer_6
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_4_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_torpedo
+					ship_sonar
+					ship_radar
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			mid_5_custom_slot = inherit
+			mid_6_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+				}
+			}
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 4
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		surface_detection = 20
+		reliability = 0.92
+		naval_range = 4000
+		max_strength = 70
+		build_cost_ic = 760
+		resources = {
+			steel = 5
+			chromium = 1
+		}
+	}
+	ship_hull_light_7 = {
+		year = 1952
+
+		archetype = ship_hull_light
+		priority = 2000
+		parent = ship_hull_light_6
+		#alias = destroyer_7
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					ship_anti_air
+					ship_radar
+					ship_sonar
+					ship_light_battery
+				}
+			}
+			mid_4_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_torpedo
+					ship_sonar
+					ship_radar
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			mid_5_custom_slot = inherit
+			mid_6_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_9_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+				}
+			}
+			
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 5
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		surface_detection = 20
+		reliability = 0.95
+		naval_range = 4500
+		max_strength = 70
+		build_cost_ic = 820
+		resources = {
+			steel = 6
+			chromium = 1
+		}
+	}
+	ship_hull_light_8 = {
+		year = 1952
+
+		archetype = ship_hull_light
+		priority = 2000
+		parent = ship_hull_light_7
+		#alias = destroyer_8
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					ship_anti_air
+					ship_radar
+					ship_sonar
+					ship_light_battery
+				}
+			}
+			mid_4_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_torpedo
+					ship_sonar
+					ship_radar
+					ship_anti_air
+					ship_light_battery
+					ship_depth_charge
+				}
+			}
+			mid_5_custom_slot = inherit
+			mid_6_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+					ship_sonar
+				}
+			}
+			mid_9_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			mid_10_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_11_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_radar
+					ship_sonar
+					ship_mine_warfare
+					ship_depth_charge
+				}
+			}
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 3
+		}
+		
+		surface_detection = 20
+		reliability = 0.96
+		naval_range = 5000
+		max_strength = 72
+		build_cost_ic = 850
+		resources = {
+			steel = 7
+			chromium = 1
+		}
 	}
 	ship_hull_mlight_1 = {
 		year = 1938
@@ -396,7 +774,7 @@ equipments = {
 
 		surface_detection = 20
 		reliability = 0.92
-		naval_range = 3800
+		naval_range = 4200
 		max_strength = 90
 		build_cost_ic = 850
 		resources = {
