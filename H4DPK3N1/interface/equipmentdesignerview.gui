@@ -388,8 +388,87 @@ guiTypes = {
 				position = { x=@custom_btn_mod_col_6 y=@custom_btn_mod_row_button_1 }
 				spriteType = "GFX_locked_icon"
 			}
+			buttonType = {
+				name = "btn_custom_module_14"
+				position = { x=@custom_btn_mod_col_0 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
+			iconType = {
+				name = "icn_custom_module_14"
+				position = { x=@custom_btn_mod_col_0 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+			iconType = {
+				name = "icn_custom_module_15"
+				position = { x=@custom_btn_mod_col_1 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+
+			buttonType = {
+				name = "btn_custom_module_15"
+				position = { x=@custom_btn_mod_col_1 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
 			
+			iconType = {
+				name = "icn_custom_module_16"
+				position = { x=@custom_btn_mod_col_2 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+
+			buttonType = {
+				name = "btn_custom_module_16"
+				position = { x=@custom_btn_mod_col_2 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
 			
+			iconType = {
+				name = "icn_custom_module_17"
+				position = { x=@custom_btn_mod_col_3 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+
+			buttonType = {
+				name = "btn_custom_module_17"
+				position = { x=@custom_btn_mod_col_3 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
+			
+			iconType = {
+				name = "icn_custom_module_18"
+				position = { x=@custom_btn_mod_col_4 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+
+			buttonType = {
+				name = "btn_custom_module_18"
+				position = { x=@custom_btn_mod_col_4 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
+			
+			iconType = {
+				name = "icn_custom_module_19"
+				position = { x=@custom_btn_mod_col_5 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+
+			buttonType = {
+				name = "btn_custom_module_19"
+				position = { x=@custom_btn_mod_col_5 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
+			
+			iconType = {
+				name = "icn_custom_module_20"
+				position = { x=@custom_btn_mod_col_6 y=@custom_btn_mod_row_icon_2 }
+				spriteType = "GFX_equipment_module_bg"
+			}
+
+			buttonType = {
+				name = "btn_custom_module_20"
+				position = { x=@custom_btn_mod_col_6 y=@custom_btn_mod_row_button_2 }
+				spriteType = "GFX_locked_icon"
+			}
 		}
 
 		iconType = {
@@ -902,6 +981,15 @@ guiTypes = {
 			maxHeight = 25
 			pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_RESOURCE_DESC"
 			format = left
+		}
+		instantTextboxType = {
+			name = "refit_cost"
+			position = { x= 650 y=510 }
+			font = "hoi_18mbs"
+			maxWidth = 200
+			maxHeight = 25
+			format = center
+			text = "Refit Cost: XXXX"
 		}
 
 		instantTextboxType = {
