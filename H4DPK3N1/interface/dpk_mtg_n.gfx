@@ -1,4 +1,22 @@
 spriteTypes = {
+	
+	##Engine_Tech_ETAX
+	SpriteType = {
+		name = "GFX_engine_medium"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_coolant_medium"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_super_and_turbochargers_medium"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_regulators_medium"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
 		
 	spriteType = {
 		name = "GFX_SMI_ship_light_ASM_battery"
@@ -195,6 +213,7 @@ spriteTypes = {
 		name = "GFX_SMI_sub_ship_engine_5"
 		textureFile = "gfx/interface/modules/engine_icn_5.dds"
 	}
+	
 	
 	spriteType = {
 		name = "GFX_SMI_sub_ship_engine_6"
