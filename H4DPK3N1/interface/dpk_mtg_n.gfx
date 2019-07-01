@@ -283,4 +283,16 @@ spriteTypes = {
 		name = "GFX_SMI_damaconcent3"
 		textureFile = "gfx/interface/modules/damacon_3.dds"
 	}
+	spriteType = {
+		name = "GFX_damage_control_center1_medium"
+		textureFile = "gfx/interface/modules/damacon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_damage_control_center2_medium"
+		textureFile = "gfx/interface/modules/damacon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_damage_control_center3_medium"
+		textureFile = "gfx/interface/modules/damacon_3.dds"
+	}
 }
