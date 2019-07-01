@@ -615,6 +615,50 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_secondaries }
 	}
+	ship_secondaries_3 = {
+		category = ship_secondaries
+		parent = ship_secondaries_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 5.5
+			build_cost_ic = 300
+		}
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 9
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 120
+		}
+		critical_parts = { damaged_secondaries }
+	}
+	ship_secondaries_4 = {
+		category = ship_secondaries
+		parent = ship_secondaries_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 7
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 11
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 120
+		}
+		critical_parts = { damaged_secondaries }
+	}
 	dp_ship_secondaries = {
 		category = ship_secondaries
 		parent = ship_secondaries_2
@@ -1286,7 +1330,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 8.5
+			naval_speed = 8
 			fuel_consumption = 20
 			build_cost_ic = 550
 		}
@@ -1313,7 +1357,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 9.75
+			naval_speed = 8.75
 			fuel_consumption = 24
 			build_cost_ic = 670
 		}
@@ -1330,6 +1374,87 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_3
+			convert_cost_ic = 2300
+		}
+	}
+	cruiser_ship_engine_5 = {
+		category = cruiser_ship_engine
+		parent = cruiser_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 9.75
+			fuel_consumption = 30
+			build_cost_ic = 800
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.20
+		}
+		
+		can_convert_from = {
+			module_category = cruiser_ship_engine
+			convert_cost_ic = 2500
+		}
+		
+		can_convert_from = {
+			module = cruiser_ship_engine_4
+			convert_cost_ic = 2300
+		}
+	}
+	cruiser_ship_engine_6 = {
+		category = cruiser_ship_engine
+		parent = cruiser_ship_engine_5
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 9.75
+			fuel_consumption = 26
+			build_cost_ic = 770
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.15
+		}
+		
+		can_convert_from = {
+			module_category = cruiser_ship_engine
+			convert_cost_ic = 2500
+		}
+		
+		can_convert_from = {
+			module = cruiser_ship_engine_5
+			convert_cost_ic = 2300
+		}
+	}
+	cruiser_ship_engine_7 = {
+		category = cruiser_ship_engine
+		parent = cruiser_ship_engine_6
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 10.25
+			fuel_consumption = 24
+			build_cost_ic = 750
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.48
+			reliability = -0.12
+		}
+		
+		can_convert_from = {
+			module_category = cruiser_ship_engine
+			convert_cost_ic = 2500
+		}
+		
+		can_convert_from = {
+			module = cruiser_ship_engine_6
 			convert_cost_ic = 2300
 		}
 	}
