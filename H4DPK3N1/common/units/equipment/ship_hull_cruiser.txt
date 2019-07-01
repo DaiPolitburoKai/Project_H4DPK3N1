@@ -860,7 +860,7 @@ equipments = {
 		}
 	}
 	
-	ship_hull_cruiserNuclear = {
+	ship_hull_cruiser_N = {
 		year = 1956
 		visual_level = 1
 		archetype = ship_hull_cruiser
