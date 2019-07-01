@@ -4478,7 +4478,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "etat_year_right"
-				position = { x=-60 y=40
+				position = { x=-300 y=40
 				}
 				size = { width = 80 height = 100% }
 				orientation = upper_right
@@ -4629,6 +4629,18 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+				instantTextBoxType = {
+					name = "etat_subtitle_modifications2"
+					position = { x = 1650 y = 95 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ETAT_TITLE_MODIFIWAFIONS"
+					maxWidth = 600
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
 				
 			gridboxtype = {
 				name = "steel_production_1_tree"
@@ -4666,7 +4678,7 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "engine_tree"
-				position = { x = 1625 y = 172 }
+				position = { x = 2000 y = 172 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
