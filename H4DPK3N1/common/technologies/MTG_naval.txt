@@ -919,45 +919,12 @@ technologies = {
 			leads_to_tech = ship_hull_cruiser7
 			research_cost_coeff = 1
 		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_5
+		}
 		research_cost = 1.5
 
 		start_year = 1952
-		
-		folder = {
-			name = mtgnavalfolder
-			position = {  x = -1 y = 31 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cl_tech
-			ca_tech
-		}
-	}
-	ship_hull_cruiser6 = {
-
-		enable_equipments = {
-			ship_hull_cruiser_6
-		}
-		path = {
-			leads_to_tech = ship_hull_cruiser7
-			research_cost_coeff = 1
-		}
-		research_cost = 1.5
-
-		start_year = 1956
 		
 		folder = {
 			name = mtgnavalfolder
@@ -986,6 +953,9 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_cruiser_7
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_6
 		}
 		path = {
 			leads_to_tech = ship_hull_cruiser8
@@ -1026,6 +996,9 @@ technologies = {
 		path = {
 			leads_to_tech = ship_hull_cruiserNuclear
 			research_cost_coeff = 1
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_7
 		}
 		research_cost = 1.5
 
@@ -1342,6 +1315,10 @@ technologies = {
 			leads_to_tech = improved_ship_hull_heavy
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = ship_hull_super_heavy
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
 
@@ -1350,9 +1327,6 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 7 }
-		}
-		sub_technologies = {
-			ship_hull_super_heavy
 		}
 		
 		ai_will_do = {
@@ -1390,6 +1364,11 @@ technologies = {
 
 		enable_equipment_modules = { 
 			ship_armor_shbb
+		}
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = 7 }
 		}
 		
 		research_cost = 1.5
@@ -1560,7 +1539,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 0 y = 6 }
+			position = {  x = 1 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -1646,7 +1625,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 0 y = 12 }
+			position = {  x = 1 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -3222,7 +3201,7 @@ early_ship_hull_carrier = {
 		
 		research_cost = 0.8
 
-		start_year = 1940
+		start_year = 1944
 
 		path = {
 			leads_to_tech = secondary_battery5
@@ -3279,7 +3258,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 12 }
+			position = { x = 1 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -3321,7 +3300,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 18 }
+			position = { x = 1 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -3362,7 +3341,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 30 }
+			position = { x = 1 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -3403,7 +3382,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 36 }
+			position = { x = 1 y = 36 }
 		}
 		
 		ai_will_do = {
