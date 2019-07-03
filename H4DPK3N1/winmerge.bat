@@ -1,0 +1,1 @@
+start "WinMerge" /B "E:\Programs\WinMerge\WinMergeU.exe" /r  /dl "Github" /dr "ModFolder" "C:\Users\ibero\Documents\GitHub\Project_H4DPK3N1\H4DPK3N1" "C:\Users\ibero\Documents\Paradox Interactive\Hearts of Iron IV\mod\H4DPK3N1"
