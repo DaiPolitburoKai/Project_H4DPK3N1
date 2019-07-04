@@ -1,0 +1,6 @@
+equipment_modules = {
+	#HEAVY
+	
+	#CARRIER
+	
+}

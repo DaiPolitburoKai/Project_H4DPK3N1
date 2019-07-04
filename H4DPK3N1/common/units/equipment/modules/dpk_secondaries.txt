@@ -1,0 +1,118 @@
+equipment_modules = {
+	ship_secondaries_3 = {
+		category = ship_secondaries
+		parent = ship_secondaries_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 5.5
+			build_cost_ic = 300
+		}
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 9
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 120
+		}
+		critical_parts = { damaged_secondaries }
+	}
+	ship_secondaries_4 = {
+		category = ship_secondaries
+		parent = ship_secondaries_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 7
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 10
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 120
+		}
+		critical_parts = { damaged_secondaries }
+	}
+	dp_ship_secondaries2 = {
+		category = ship_secondaries
+		parent = dp_ship_secondaries
+		gfx = ship_secondaries_3
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 2.5
+			anti_air_attack = 3.5
+			build_cost_ic = 320
+		}
+
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 4
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 150
+		}
+		critical_parts = { damaged_secondaries }
+	}
+	dp_ship_secondaries3 = {
+		category = ship_secondaries
+		parent = dp_ship_secondaries2
+		gfx = ship_secondaries_3
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 3
+			anti_air_attack = 6
+			build_cost_ic = 350
+		}
+
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 4.5
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 150
+		}
+		critical_parts = { damaged_secondaries }
+	}
+	dp_ship_secondaries4 = {
+		category = ship_secondaries
+		parent = dp_ship_secondaries3
+		gfx = ship_secondaries_3
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 3.5
+			anti_air_attack = 7.5
+			build_cost_ic = 380
+		}
+
+		multiply_stats = {
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 5.5
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 150
+		}
+		critical_parts = { damaged_secondaries }
+	}
+}

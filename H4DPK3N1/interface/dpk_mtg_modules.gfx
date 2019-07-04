@@ -1,0 +1,390 @@
+spriteTypes = {
+
+	##ShipModules
+	
+	SpriteType = {
+		name = "GFX_ship_sam_missile_battery_1_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_cruiser_conv.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_ASM_battery"
+		textureFile = "gfx/interface/modules/ship_light_ASM_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_light_ASM_battery_1"
+		textureFile = "gfx/interface/modules/ship_light_ASM_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_ASM_battery_1"
+		textureFile = "gfx/interface/modules/ship_heavy_ASM_battery_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_ASM_battery"
+		textureFile = "gfx/interface/modules/ship_heavy_ASM_battery_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_SMI_ship_dp_missile_battery"
+		textureFile = "gfx/interface/modules/ship_dp_missile_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_dp_missile_battery_1"
+		textureFile = "gfx/interface/modules/ship_dp_missile_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_sam_missile_battery"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_sam_missile_battery_1"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_sam_missile_battery_2"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery_2.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_ship_light_ASM_battery_1_medium"
+		textureFile = "gfx/interface/modules/tech_ship_light_ASM_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_heavy_ASM_battery_1_medium"
+		textureFile = "gfx/interface/modules/tech_ship_heavy_ASM_battery_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ship_dp_missile_battery_1_medium"
+		textureFile = "gfx/interface/modules/tech_ship_dp_missile_battery_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_sam_missile_battery_2_medium"
+		textureFile = "gfx/interface/modules/tech_ship_sam_missile_battery_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_5"
+		textureFile = "gfx/interface/modules/aswrocket.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_depth_charges_5_medium"
+		texturefile = "gfx/interface/technologies/aswrocket.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_6"
+		textureFile = "gfx/interface/modules/aswrocket2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_depth_charges_6_medium"
+		texturefile = "gfx/interface/technologies/aswrocket2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_7"
+		textureFile = "gfx/interface/modules/aswrocket3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_depth_charges_7_medium"
+		texturefile = "gfx/interface/technologies/aswrocket3.dds"
+	}
+	
+	#ENGINE
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_5"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_6"
+		textureFile = "gfx/interface/modules/engine_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_7"
+		textureFile = "gfx/interface/modules/engine_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_cruiser_ship_engine_5"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_cruiser_ship_engine_6"
+		textureFile = "gfx/interface/modules/engine_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_cruiser_ship_engine_7"
+		textureFile = "gfx/interface/modules/engine_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_heavy_ship_engine_5"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_heavy_ship_engine_6"
+		textureFile = "gfx/interface/modules/engine_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_heavy_ship_engine_7"
+		textureFile = "gfx/interface/modules/engine_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_ship_engine_5"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_ship_engine_6"
+		textureFile = "gfx/interface/modules/engine_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_ship_engine_7"
+		textureFile = "gfx/interface/modules/engine_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_engine_5"
+		textureFile = "gfx/interface/modules/engine_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_engine_6"
+		textureFile = "gfx/interface/modules/engine_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_engine_7"
+		textureFile = "gfx/interface/modules/engine_icn_7.dds"
+	}
+	#TORPEDO
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_5"
+		textureFile = "gfx/interface/modules/ship_torpedo_launcher_icn_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_6"
+		textureFile = "gfx/interface/modules/ship_torpedo_launcher_icn_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_7"
+		textureFile = "gfx/interface/modules/ship_torpedo_launcher_icn_7.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_sub_5"
+		textureFile = "gfx/interface/modules/sub_torpedo_launcher_icn_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_sub_6"
+		textureFile = "gfx/interface/modules/sub_torpedo_launcher_icn_6.dds"
+	}
+	#DAMACON
+	spriteType = {
+		name = "GFX_SMI_damaconcent1"
+		textureFile = "gfx/interface/modules/damacon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_damaconcent2"
+		textureFile = "gfx/interface/modules/damacon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_damaconcent3"
+		textureFile = "gfx/interface/modules/damacon_3.dds"
+	}
+	#SECBAT
+	spriteType = {
+		name = "GFX_SMI_ship_secondaries_3"
+		textureFile = "gfx/interface/modules/secondaries3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_secondaries_4"
+		textureFile = "gfx/interface/modules/secondaries4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries2"
+		textureFile = "gfx/interface/modules/dpsecbat2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries3"
+		textureFile = "gfx/interface/modules/dpsecbat3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries4"
+		textureFile = "gfx/interface/modules/dpsecbat4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries5"
+		textureFile = "gfx/interface/modules/dpsecbat5.dds"
+	}
+	#HEAVY ARMOR
+	spriteType = {
+		name = "GFX_SMI_ship_armor_shbb2"
+		textureFile = "gfx/interface/modules/armor_thick4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_shbb3"
+		textureFile = "gfx/interface/modules/armor_thick5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_shbb4"
+		textureFile = "gfx/interface/modules/armor_thick6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_shbb5"
+		textureFile = "gfx/interface/modules/armor_thick7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_4"
+		textureFile = "gfx/interface/modules/armor_thick4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_4"
+		textureFile = "gfx/interface/modules/armor_thick4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_5"
+		textureFile = "gfx/interface/modules/armor_thick5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_5"
+		textureFile = "gfx/interface/modules/armor_thick5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_6"
+		textureFile = "gfx/interface/modules/armor_thick6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_6"
+		textureFile = "gfx/interface/modules/armor_thick6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_7"
+		textureFile = "gfx/interface/modules/armor_thick7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_7"
+		textureFile = "gfx/interface/modules/armor_thick7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_8"
+		textureFile = "gfx/interface/modules/armor_thick8.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_8"
+		textureFile = "gfx/interface/modules/armor_thick8.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_9"
+		textureFile = "gfx/interface/modules/armor_thick9.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_9"
+		textureFile = "gfx/interface/modules/armor_thick9.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_10"
+		textureFile = "gfx/interface/modules/armor_thick10.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_10"
+		textureFile = "gfx/interface/modules/armor_thick10.dds"
+	}
+	
+	
+	###TECH
+	
+	#HEAVY ARMOR
+	spriteType = {
+		name = "GFX_heavy_armor_4_medium"
+		textureFile = "gfx/interface/modules/armor_thick4.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_armor_5_medium"
+		textureFile = "gfx/interface/modules/armor_thick5.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_armor_6_medium"
+		textureFile = "gfx/interface/modules/armor_thick6.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_armor_7_medium"
+		textureFile = "gfx/interface/modules/armor_thick7.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_armor_8_medium"
+		textureFile = "gfx/interface/modules/armor_thick8.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_armor_9_medium"
+		textureFile = "gfx/interface/modules/armor_thick9.dds"
+	}
+	spriteType = {
+		name = "GFX_heavy_armor_10_medium"
+		textureFile = "gfx/interface/modules/armor_thick10.dds"
+	}
+	
+	#DAMACON
+	
+	spriteType = {
+		name = "GFX_damage_control_center1_medium"
+		textureFile = "gfx/interface/modules/damacon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_damage_control_center2_medium"
+		textureFile = "gfx/interface/modules/damacon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_damage_control_center3_medium"
+		textureFile = "gfx/interface/modules/damacon_3.dds"
+	}
+	
+	#SECBAT
+	spriteType = {
+		name = "GFX_secondary_battery1_medium"
+		textureFile = "gfx/interface/modules/secondaries3.dds"
+	}
+	spriteType = {
+		name = "GFX_secondary_battery2_medium"
+		textureFile = "gfx/interface/modules/secondaries4.dds"
+	}
+	spriteType = {
+		name = "GFX_dp_secondary_battery2_medium"
+		textureFile = "gfx/interface/modules/dpsecbat2.dds"
+	}
+	spriteType = {
+		name = "GFX_dp_secondary_battery3_medium"
+		textureFile = "gfx/interface/modules/dpsecbat3.dds"
+	}
+	spriteType = {
+		name = "GFX_dp_secondary_battery4_medium"
+		textureFile = "gfx/interface/modules/dpsecbat4.dds"
+	}
+	spriteType = {
+		name = "GFX_dp_secondary_battery5_medium"
+		textureFile = "gfx/interface/modules/dpsecbat5.dds"
+	}
+	#TORPEDO
+	
+	SpriteType = {
+		name = "GFX_ship_torpedo_launcher_5_medium"
+		texturefile = "gfx/interface/technologies/aswtorp1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ship_torpedo_launcher_6_medium"
+		texturefile = "gfx/interface/technologies/aswtorp2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ship_torpedo_launcher_7_medium"
+		texturefile = "gfx/interface/technologies/aswtorp3.dds"
+	}
+}

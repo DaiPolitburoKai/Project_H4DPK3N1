@@ -3234,7 +3234,7 @@ early_ship_hull_carrier = {
 			ship_light_battery_56
 		}
 		path = {
-			leads_to_tech = light_battery56
+			leads_to_tech = light_battery60
 			research_cost_coeff = 1
 		}
 		
