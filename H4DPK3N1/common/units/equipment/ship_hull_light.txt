@@ -657,7 +657,7 @@ equipments = {
 		
 		module_count_limit = {
 			category = ship_radar
-			count < 
+			count < 6
 		}
 		
 		module_count_limit = {
@@ -770,18 +770,169 @@ equipments = {
 				}
 			}
 		}
+		module_count_limit = {
+			category = ship_radar
+			count < 3
+		}
 
 
 		surface_detection = 20
 		reliability = 0.92
 		naval_range = 4200
+		naval_speed = 30
 		max_strength = 90
+		armor_value = 6
 		build_cost_ic = 850
 		resources = {
 			steel = 4
 			chromium = 1
 		}
-		manpower = 600
+		manpower = 650
+	}
+	ship_hull_mlight_2 = {
+		year = 1946
+
+		archetype = ship_hull_light
+		priority = 2000
+		parent = ship_hull_mlight_1
+		
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = yes
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = yes
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { cruiser_ship_engine light_ship_engine }
+			}
+			front_1_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_light_battery
+				}
+			}
+			front_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+			front_3_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_light_battery
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_layer
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_4_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_anti_air
+					ship_radar
+				}
+			}
+			mid_5_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_anti_air
+					ship_radar
+				}
+			}
+			rear_1_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_depth_charge
+				}
+			}
+			rear_2_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_anti_air
+				}
+			}
+			rear_3_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_light_battery
+				}
+			}
+			rear_4_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+		}
+		module_count_limit = {
+			category = ship_radar
+			count < 6
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 3
+		}
+
+		surface_detection = 20
+		reliability = 0.92
+		naval_speed = 32
+		naval_range = 5400
+		max_strength = 90
+		armor_value = 8
+		build_cost_ic = 100
+		resources = {
+			steel = 6
+			chromium = 1
+		}
+		manpower = 750
 	}
 	ship_hull_escort = {
 		year = 1936

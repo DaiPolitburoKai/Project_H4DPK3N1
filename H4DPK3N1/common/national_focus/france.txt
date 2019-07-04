@@ -1557,7 +1557,7 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 19
 		y = 0
-		cost = 8
+		cost = 5
 
 		available_if_capitulated = yes
 
