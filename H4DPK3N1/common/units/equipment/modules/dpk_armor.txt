@@ -15,7 +15,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 72
+			armor_value = 78
 			surface_visibility = 12
 		}
 		dismantle_cost_ic = 10000
@@ -35,7 +35,7 @@ equipment_modules = {
 			chromium = 2
 		}
 		add_stats = {
-			armor_value = 84
+			armor_value = 92
 			surface_visibility = 12
 		}
 		dismantle_cost_ic = 11000
@@ -55,7 +55,7 @@ equipment_modules = {
 			chromium = 2
 		}
 		add_stats = {
-			armor_value = 96
+			armor_value = 106
 			surface_visibility = 12
 		}
 		dismantle_cost_ic = 12000
@@ -74,7 +74,7 @@ equipment_modules = {
 			chromium = 2
 		}
 		add_stats = {
-			armor_value = 108
+			armor_value = 120
 			surface_visibility = 14
 		}
 		dismantle_cost_ic = 12000
@@ -94,7 +94,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 48
+			armor_value = 50
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 9000
@@ -114,7 +114,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 32
+			armor_value = 34
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 7000
@@ -154,7 +154,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 36
+			armor_value = 38
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 8000
@@ -194,7 +194,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 42
+			armor_value = 40
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 8500
@@ -254,7 +254,7 @@ equipment_modules = {
 			chromium = 2
 		}
 		add_stats = {
-			armor_value = 84
+			armor_value = 78
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 15000
@@ -274,7 +274,87 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
+			armor_value = 52
+			surface_visibility = 6
+		}
+		dismantle_cost_ic = 9500
+		
+	}
+	ship_armor_bb_9 = {
+		category = ship_heavy_armor
+		
+		
+		multiply_stats = {
+			build_cost_ic = 0.25
+			naval_speed = -0.2
+			max_strength = 0.4
+		}
+		build_cost_resources = {
+			steel = 4
+			chromium = 2
+		}
+		add_stats = {
+			armor_value = 84
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 15000
+		
+	}
+	ship_armor_bc_9 = {
+		category = ship_heavy_armor
+		
+		
+		multiply_stats = {
+			build_cost_ic = 0.05
+			naval_speed = -0.04
+			max_strength = 0.4
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
 			armor_value = 56
+			surface_visibility = 6
+		}
+		dismantle_cost_ic = 9500
+		
+	}
+	ship_armor_bb_10 = {
+		category = ship_heavy_armor
+		
+		
+		multiply_stats = {
+			build_cost_ic = 0.25
+			naval_speed = -0.2
+			max_strength = 0.45
+		}
+		build_cost_resources = {
+			steel = 4
+			chromium = 2
+		}
+		add_stats = {
+			armor_value = 90
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 15000
+		
+	}
+	ship_armor_bc_10 = {
+		category = ship_heavy_armor
+		
+		
+		multiply_stats = {
+			build_cost_ic = 0.05
+			naval_speed = -0.02
+			max_strength = 0.45
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 62
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 9500

@@ -55,6 +55,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/JAP_modern_battleship.dds"
 	}
 	SpriteType = {
+		name = "GFX_ship_hull_super_heavy2_medium"
+		texturefile = "gfx/interface/technologies/JAP_heavy_battleship3.dds"
+	}
+	SpriteType = {
 		name = "GFX_ship_hull_heavy_7_medium"
 		texturefile = "gfx/interface/technologies/JAP_battleship_7.dds"
 	}

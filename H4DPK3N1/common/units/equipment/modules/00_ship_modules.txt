@@ -164,14 +164,14 @@ equipment_modules = {
 		
 		add_stats = {
 			
-			hg_attack = 11
+			hg_attack = 12
 			build_cost_ic = 1275
 		}
 		multiply_stats = {
 			naval_speed = -0.06
 		}
 		add_average_stats = {
-			hg_armor_piercing = 31
+			hg_armor_piercing = 45
 		}
 		build_cost_resources = {
 			steel = 1
@@ -190,14 +190,14 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 12
+			hg_attack = 14
 			build_cost_ic = 1425
 		}
 		multiply_stats = {
 			naval_speed = -0.09
 		}
 		add_average_stats = {
-			hg_armor_piercing = 36
+			hg_armor_piercing = 50
 		}
 		build_cost_resources = {
 			steel = 1
@@ -221,14 +221,14 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 13
+			hg_attack = 16
 			build_cost_ic = 1650
 		}
 		multiply_stats = {
 			naval_speed = -0.1
 		}
 		add_average_stats = {
-			hg_armor_piercing = 40
+			hg_armor_piercing = 56
 		}
 		build_cost_resources = {
 			steel = 1
@@ -252,8 +252,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			
-			hg_attack = 15
+			hg_attack = 18
 			build_cost_ic = 1875
 			
 		}
@@ -261,7 +260,7 @@ equipment_modules = {
 			naval_speed = -0.11
 		}
 		add_average_stats = {
-			hg_armor_piercing = 43
+			hg_armor_piercing = 60
 		}
 		build_cost_resources = {
 			steel = 1
@@ -286,8 +285,8 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 16
-			build_cost_ic = 2100
+			hg_attack = 20
+			build_cost_ic = 2300
 		}
 		build_cost_resources = {
 			steel = 1
@@ -297,7 +296,7 @@ equipment_modules = {
 			naval_speed = -0.12
 		}
 		add_average_stats = {
-			hg_armor_piercing = 50
+			hg_armor_piercing = 64
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -1951,7 +1950,7 @@ equipment_modules = {
 			steel = 1
 		}
 		add_stats = {
-			armor_value = 30
+			armor_value = 36
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 5500
@@ -1968,7 +1967,7 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			armor_value = 20
+			armor_value = 24
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 4500
@@ -1987,7 +1986,7 @@ equipment_modules = {
 			steel = 1
 		}
 		add_stats = {
-			armor_value = 36
+			armor_value = 42
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 6000
@@ -2006,7 +2005,7 @@ equipment_modules = {
 			steel = 1
 		}
 		add_stats = {
-			armor_value = 24
+			armor_value = 28
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 5500
@@ -2025,7 +2024,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 42
+			armor_value = 46
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 7500
@@ -2045,7 +2044,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 28
+			armor_value = 30
 			surface_visibility = 6
 		}
 		dismantle_cost_ic = 6000
