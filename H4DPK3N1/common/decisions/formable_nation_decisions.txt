@@ -1003,6 +1003,7 @@ form_european_union_category = {
 
 		available = {
 			is_subject = no
+			OR ={ has_government = democratic has_government = communism }
 			controls_state = 8
 			# Netherlands
 			custom_trigger_tooltip = {
@@ -1097,7 +1098,7 @@ form_european_union_category = {
 				original_tag = ITA
 				original_tag = GER
 			}
-			has_government = democratic
+			OR ={ has_government = democratic has_government = communism }
 			NOT = { has_global_flag = form_european_union_flag }
 			is_major = yes
 		}
