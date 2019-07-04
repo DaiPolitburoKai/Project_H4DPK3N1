@@ -3,7 +3,7 @@ equipment_modules = {
 	#SUPERHEAVY ARMOR
 	ship_armor_shbb2 = {
 		category = ship_super_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.25
@@ -23,7 +23,7 @@ equipment_modules = {
 	}
 	ship_armor_shbb3 = {
 		category = ship_super_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -43,7 +43,7 @@ equipment_modules = {
 	}
 	ship_armor_shbb4 = {
 		category = ship_super_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -62,7 +62,7 @@ equipment_modules = {
 	}
 	ship_armor_shbb5 = {
 		category = ship_super_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -82,7 +82,7 @@ equipment_modules = {
 	#HEAVY ARMOR
 	ship_armor_bb_4 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -102,7 +102,7 @@ equipment_modules = {
 	}
 	ship_armor_bc_4 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.075
@@ -122,7 +122,7 @@ equipment_modules = {
 	}
 	ship_armor_bb_5 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -142,7 +142,7 @@ equipment_modules = {
 	}
 	ship_armor_bc_5 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.075
@@ -162,7 +162,7 @@ equipment_modules = {
 	}
 	ship_armor_bb_6 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.25
@@ -182,7 +182,7 @@ equipment_modules = {
 	}
 	ship_armor_bc_6 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.05
@@ -202,7 +202,7 @@ equipment_modules = {
 	}
 	ship_armor_bb_7 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.25
@@ -222,7 +222,7 @@ equipment_modules = {
 	}
 	ship_armor_bc_7 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.05
@@ -242,7 +242,7 @@ equipment_modules = {
 	}
 	ship_armor_bb_8 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_thick_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.25
@@ -262,7 +262,7 @@ equipment_modules = {
 	}
 	ship_armor_bc_8 = {
 		category = ship_heavy_armor
-		gfx = ship_armor_3
+		
 		
 		multiply_stats = {
 			build_cost_ic = 0.05
