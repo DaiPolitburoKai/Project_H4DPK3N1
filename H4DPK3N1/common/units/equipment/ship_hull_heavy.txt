@@ -427,7 +427,7 @@ equipments = {
 		build_cost_ic = 3100
 		resources = {
 			#oil = 1
-			steel = 4
+			steel = 2
 			chromium = 1
 		}
 
@@ -527,7 +527,7 @@ equipments = {
 		build_cost_ic = 3300
 		resources = {
 			#oil = 1
-			steel = 3
+			steel = 2
 			chromium = 1
 		}
 
@@ -632,7 +632,7 @@ equipments = {
 		build_cost_ic = 3400
 		resources = {
 			#oil = 1
-			steel = 4
+			steel = 2
 			chromium = 1
 		}
 
@@ -1268,7 +1268,7 @@ equipments = {
 		reliability = 0.80
 		build_cost_ic = 4500
 		resources = {
-			steel = 5
+			steel = 3
 			chromium = 2
 		}
 		manpower = 4200
@@ -1436,7 +1436,7 @@ equipments = {
 		reliability = 0.85
 		build_cost_ic = 5000
 		resources = {
-			steel = 6
+			steel = 3
 			chromium = 2
 		}
 		manpower = 4800

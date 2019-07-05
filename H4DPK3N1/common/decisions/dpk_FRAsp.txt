@@ -185,7 +185,7 @@ political_actions = {
 			has_country_flag = FRAdicisionsunlocked
 		}
 		fire_only_once = no	
-		days_remove = 30
+		days_remove = 15
 		ai_will_do = {
 			factor = -1
 		}
