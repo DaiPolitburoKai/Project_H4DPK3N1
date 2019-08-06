@@ -359,6 +359,7 @@ diff_hard_ai = {
  	navy_fuel_consumption_factor = -0.25
 	army_speed_factor = 0.15
 	army_attack_factor = 0.05
+	MONTHLY_POPULATION = 0.5
 }
 
 diff_very_hard_ai = {
@@ -367,6 +368,7 @@ diff_very_hard_ai = {
  	navy_fuel_consumption_factor = -0.5
 	army_speed_factor = 0.25
 	army_attack_factor = 0.10
+	MONTHLY_POPULATION = 1.5
 }
 
 
@@ -377,6 +379,7 @@ diff_strong_ai_generic = {
 	supply_consumption_factor = -0.25
 	army_morale_factor = 0.15
 	land_reinforce_rate = 0.02
+	MONTHLY_POPULATION = 1
 
 	# defensivness
 	army_core_attack_factor = 0.15
@@ -385,9 +388,9 @@ diff_strong_ai_generic = {
 	attrition = -0.075
 
 	# production/research
-	production_factory_max_efficiency_factor = 0.15
+	production_factory_max_efficiency_factor = 0.5
 	production_factory_efficiency_gain_factor = 0.25
-	industrial_capacity_dockyard = 0.2
+	industrial_capacity_dockyard = 0.45
 	political_power_factor = 0.25
 	research_speed_factor = 0.1
 	production_lack_of_resource_penalty_factor = -0.3
